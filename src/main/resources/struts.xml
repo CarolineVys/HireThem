@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <constant name="struts.devMode" value="false"/>
+
+    <constant name="struts.convention.default.parent.package" value="angularstruts"/>
+    <package name="angularstruts" extends="json-default"/>
+    <package name="data" extends="angularstruts" namespace="/data"/>
+    <constant name="struts.action.extension" value=","/>
+    <constant name="struts.convention.result.path" value="/"/>
+
+
+    <package namespace="/" name="hireThem" extends="struts-default">
+        <interceptors>
+            <interceptor name="login" class="action.interceptor.AuthorizationInterceptor"/>
+            <interceptor-stack name="defaultWithAuthorizationCheckStack">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="login"/>
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="defaultWithAuthorizationCheckStack"/>
+        <global-results>
+            <result name="loginRedirect" type="redirectAction">login</result>
+        </global-results>
+
+        <action name="">
+            <result type="redirectAction">index</result>
+        </action>
+        <action name="index" class="action.home.IndexAction">
+            <result>/content/index.jsp</result>
+        </action>
+
+
+        <action name="login" class="action.authentication.LoginAction" method="input">
+            <result name="input">/content/login.jsp</result>
+            <result name="none" type="redirectAction">profile</result>
+        </action>
+        <action name="submitLogin" class="action.authentication.LoginAction">
+            <result type="redirectAction">profile</result>
+            <result name="input">/content/login.jsp</result>
+        </action>
+
+
+        <action name="signin" class="action.authentication.SigninAction" method="input">
+            <result name="input">/content/signin.jsp</result>
+        </action>
+        <action name="submitSignin" class="action.authentication.SigninAction">
+            <result type="redirectAction">profile</result>
+            <result name="input">/content/signin.jsp</result>
+        </action>
+
+
+        <action name="profile" class="action.profile.CurrentUserProfileAction" method="input">
+            <result>/content/profile.jsp</result>
+        </action>
+        <action name="editProfile" class="action.profile.EditProfileAction" method="input">
+            <result name="input">/content/employee-edit.jsp</result>
+        </action>
+        <action name="submitEditProfile" class="action.profile.EditProfileAction">
+            <result name="input">/content/employee-edit.jsp</result>
+            <result type="redirectAction">profile</result>
+        </action>
+
+
+        <action name="about" class="action.pages.PagesAction" method="about">
+            <result name="about">/content/about.jsp</result>
+        </action>
+        <action name="contact" class="action.pages.PagesAction" method="contact">
+            <result name="contact">/content/contact.jsp</result>
+        </action>
+        <action name="faq" class="action.pages.PagesAction" method="faq">
+            <result name="faq">/content/faq.jsp</result>
+        </action>
+
+
+        <action name="browseResumes" class="action.resumes.BrowseResumesAction" method="input">
+            <result name="input">/content/resume-list.jsp</result>
+        </action>
+        <action name="browseResumesBySummary" class="action.resumes.BrowseResumesAction" method="searchBySummary">
+            <result>/content/resume-list.jsp</result>
+            <result name="input" type="redirectAction">browseResumes</result>
+        </action>
+        <action name="browseResumesBySkills" class="action.resumes.BrowseResumesAction" method="searchBySkills">
+            <result>/content/resume-list.jsp</result>
+            <result name="input" type="redirectAction">browseResumes</result>
+        </action>
+        <action name="browseResumesByEducation" class="action.resumes.BrowseResumesAction" method="searchByEducation">
+            <result>/content/resume-list.jsp</result>
+            <result name="input" type="redirectAction">browseResumes</result>
+        </action>
+        <action name="browseResumesByExperience" class="action.resumes.BrowseResumesAction" method="searchByExperience">
+            <result>/content/resume-list.jsp</result>
+            <result name="input" type="redirectAction">browseResumes</result>
+        </action>
+
+        <action name="userProfile" class="action.profile.ProfileAction" method="input">
+            <result name="input">/content/profile.jsp</result>
+        </action>
+
+        <action name="browseVacancies" class="action.vacancies.BrowseVacanciesAction" method="input">
+            <result name="input">/content/vacancy-list.jsp</result>
+        </action>
+        <action name="browseVacanciesByTitle" class="action.vacancies.BrowseVacanciesAction" method="searchVacanciesByTitle">
+            <result>/content/vacancy-list.jsp</result>
+            <result name="input" type="redirectAction">browseVacancies</result>
+        </action>
+        <action name="browseVacanciesBySummary" class="action.vacancies.BrowseVacanciesAction" method="searchVacanciesBySummary">
+            <result>/content/vacancy-list.jsp</result>
+            <result name="input" type="redirectAction">browseVacancies</result>
+        </action>
+        <action name="browseVacanciesBySkills" class="action.vacancies.BrowseVacanciesAction" method="searchVacanciesBySkills">
+            <result>/content/vacancy-list.jsp</result>
+            <result name="input" type="redirectAction">browseVacancies</result>
+        </action>
+        <action name="browseVacanciesByExperience" class="action.vacancies.BrowseVacanciesAction" method="searchVacanciesByExperience">
+            <result>/content/vacancy-list.jsp</result>
+            <result name="input" type="redirectAction">browseVacancies</result>
+        </action>
+
+
+        <action name="manageVacancies" class="action.vacancies.ManageVacanciesAction" method="input">
+            <result>/content/vacancy-manage.jsp</result>
+        </action>
+        <action name="editVacancy" class="action.vacancies.ModifyVacancyAction" method="input">
+            <result name="input">/content/vacancy-edit.jsp</result>
+        </action>
+        <action name="submitEditVacancy" class="action.vacancies.ModifyVacancyAction" method="execute">
+            <result type="redirectAction">manageVacancies</result>
+            <result name="input">/content/vacancy-edit.jsp</result>
+        </action>
+        <action name="addNewVacancy" class="action.vacancies.CreateVacancyAction" method="input">
+            <result name="input">/content/vacancy.jsp</result>
+        </action>
+        <action name="submitVacancy" class="action.vacancies.CreateVacancyAction" method="execute">
+            <result type="redirectAction">manageVacancies</result>
+            <result name="input">/content/vacancy.jsp</result>
+        </action>
+        <action name="deleteVacancy" class="action.vacancies.DeleteVacancyAction">
+            <result type="redirectAction">manageVacancies</result>
+        </action>
+
+
+        <action name="manageResumes" class="action.resumes.ManageResumesAction" method="execute">
+            <result name="success">/content/resume-manage.jsp</result>
+        </action>
+        <action name="editResume" class="action.resumes.ModifyResumeAction" method="input">
+            <result name="input">/content/resume-edit.jsp</result>
+        </action>
+        <action name="submitEditResume" class="action.resumes.ModifyResumeAction" method="execute">
+            <result type="redirectAction">manageResumes</result>
+            <result name="input">/content/resume-edit.jsp</result>
+        </action>
+        <action name="addNewResume" class="action.resumes.CreateResumeAction" method="input">
+            <result name="input">/content/resume.jsp</result>
+        </action>
+        <action name="submitResume" class="action.resumes.CreateResumeAction" method="execute">
+            <result type="redirectAction">manageResumes</result>
+            <result name="input">/content/resume.jsp</result>
+        </action>
+        <action name="deleteResume" class="action.resumes.DeleteResumeAction">
+            <result type="redirectAction">manageResumes</result>
+        </action>
+
+
+        <action name="manageResumesAdmin" class="action.admin.resumes.ManageResumesAdminPanelAction">
+            <result>/content/admin-resumes.jsp</result>
+        </action>
+        <action name="editResumeAdmin" class="action.admin.resumes.ModifyResumeAdminPanelAction" method="input">
+            <result name="input">/content/admin-resumes-edit.jsp</result>
+        </action>
+        <action name="submitEditResumeAdmin" class="action.admin.resumes.ModifyResumeAdminPanelAction">
+            <result type="redirectAction">manageResumesAdmin</result>
+            <result name="input">/content/admin-resumes-edit.jsp</result>
+        </action>
+        <action name="addNewResumeAdmin" class="action.admin.resumes.CreateResumeAdminPanelAction" method="input">
+            <result name="input">/content/admin-resumes-resume.jsp</result>
+        </action>
+        <action name="submitResumeAdmin" class="action.admin.resumes.CreateResumeAdminPanelAction" method="execute">
+            <result type="redirectAction">manageResumesAdmin</result>
+            <result name="input">/content/admin-resumes-resume.jsp</result>
+        </action>
+        <action name="deleteResumeAdmin" class="action.admin.resumes.DeleteResumeAdminPanelAction">
+            <result type="redirectAction">manageResumesAdmin</result>
+        </action>
+
+
+        <action name="manageVacanciesAdmin" class="action.admin.vacancies.ManageVacanciesAdminPanelAction" method="input">
+            <result name="input">/content/admin-vacancies.jsp</result>
+        </action>
+        <action name="editVacancyAdmin" class="action.admin.vacancies.ModifyVacancyAdminPanelAction" method="input">
+            <result name="input">/content/admin-vacancies-edit.jsp</result>
+        </action>
+        <action name="submitEditVacancyAdmin" class="action.admin.vacancies.ModifyVacancyAdminPanelAction">
+            <result type="redirectAction">manageVacanciesAdmin</result>
+            <result name="input">/content/admin-vacancies-edit.jsp</result>
+        </action>
+        <action name="addNewVacancyAdmin" class="action.admin.vacancies.CreateVacancyAdminPanelAction" method="input">
+            <result name="input">/content/admin-vacancies-vacancy.jsp</result>
+        </action>
+        <action name="submitVacancyAdmin" class="action.admin.vacancies.CreateVacancyAdminPanelAction" method="execute">
+            <result type="redirectAction">manageVacanciesAdmin</result>
+            <result name="input">/content/admin-vacancies-vacancy.jsp</result>
+        </action>
+        <action name="deleteVacancyAdmin" class="action.admin.vacancies.DeleteVacancyAdminPanelAction">
+            <result type="redirectAction">manageVacanciesAdmin</result>
+        </action>
+
+
+        <action name="manageUsersAdmin" class="action.admin.users.ManageUsersAdminPanelAction" method="input">
+            <result name="input">/content/admin-users.jsp</result>
+        </action>
+        <action name="editUserAdmin" class="action.admin.users.ModifyUserAdminPanelAction" method="input">
+            <result name="input">/content/admin-users-edit.jsp</result>
+        </action>
+        <action name="submitEditUserAdmin" class="action.admin.users.ModifyUserAdminPanelAction">
+            <result type="redirectAction">manageUsersAdmin</result>
+            <result name="input">/content/admin-users-edit.jsp</result>
+        </action>
+        <action name="addNewUserAdmin" class="action.admin.users.CreateUserAdminPanelAction" method="input">
+            <result name="input">/content/admin-users-user.jsp</result>
+        </action>
+        <action name="submitUserAdmin" class="action.admin.users.CreateUserAdminPanelAction" method="execute">
+            <result type="redirectAction">manageUsersAdmin</result>
+            <result name="input">/content/admin-users-user.jsp</result>
+        </action>
+        <action name="deleteUserAdmin" class="action.admin.users.DeleteUserAdminPanelAction">
+            <result type="redirectAction">manageUsersAdmin</result>
+        </action>
+
+
+
+        <action name="downloadResumePdf" class="action.resumes.DownloadResumeAction" method="downloadPdf">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="resume.pdf"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadResumeCsv" class="action.resumes.DownloadResumeAction" method="downloadCsv">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="resume.csv"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadResumeXls" class="action.resumes.DownloadResumeAction" method="downloadXls">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="resume.xls"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+
+        <action name="downloadVacancyPdf" class="action.vacancies.DownloadVacancyAction" method="downloadPdf">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="vacancy.pdf"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadVacancyCsv" class="action.vacancies.DownloadVacancyAction" method="downloadCsv">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="vacancy.csv"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadVacancyXls" class="action.vacancies.DownloadVacancyAction" method="downloadXls">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="vacancy.xls"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+
+        <action name="downloadResumesReportPdf" class="action.admin.resumes.DownloadResumesReportAction" method="downloadPdf">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="resumes.pdf"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadResumesReportCsv" class="action.admin.resumes.DownloadResumesReportAction" method="downloadCsv">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="resumes.csv"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadResumesReportXls" class="action.admin.resumes.DownloadResumesReportAction" method="downloadXls">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="resumes.xls"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+
+        <action name="downloadVacanciesReportPdf" class="action.admin.vacancies.DownloadVacanciesReportAction" method="downloadPdf">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="vacancies.pdf"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadVacanciesReportCsv" class="action.admin.vacancies.DownloadVacanciesReportAction" method="downloadCsv">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="vacancies.csv"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadVacanciesReportXls" class="action.admin.vacancies.DownloadVacanciesReportAction" method="downloadXls">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="vacancies.xls"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+
+        <action name="downloadUsersReportPdf" class="action.admin.users.DownloadUsersReportAction" method="downloadPdf">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="users.pdf"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadUsersReportCsv" class="action.admin.users.DownloadUsersReportAction" method="downloadCsv">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="users.csv"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+        <action name="downloadUsersReportXls" class="action.admin.users.DownloadUsersReportAction" method="downloadXls">
+            <result type="stream">
+                <param name="contentType">application/octet-stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">attachment;filename="users.xls"</param>
+                <param name="bufferSize">1024</param>
+            </result>
+        </action>
+
+
+
+
+
+
+        <action name="logout" class="action.authentication.LogoutAction">
+            <result type="redirectAction">index</result>
+        </action>
+    </package>
+
+</struts>

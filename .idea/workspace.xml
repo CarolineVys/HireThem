@@ -1,0 +1,1803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f760d8a-132f-48da-a2a4-f55989c512f7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/create_db_user.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_12-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_15-00.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_17-50.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-15.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-17.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-30.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-48.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-51.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-52.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_18-58.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_19-27.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_19-58.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-11_20-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-13_14-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_12-02.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_12-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_12-30.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_12-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_12-37.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_12-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_12-42.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_12-46.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-04.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-28.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-29.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-34.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-36.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-41.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_21-47.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-36.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-40.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-41.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-42.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-48.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-51.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-53.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-15_23-58.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_09-19.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_09-20.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_09-21.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_09-24.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_09-33.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_09-34.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_13-02.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_13-04.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_13-08.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_13-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_13-15.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_13-17.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_13-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_13-21.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_19-59.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_20-01.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_20-02.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_20-23.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_22-29.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_22-33.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_22-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_22-51.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_22-53.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_22-55.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_22-57.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_22-59.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-16_23-00.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_11-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_11-15.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_11-29.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_12-06.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_12-07.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_12-11.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_12-13.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_12-16.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_12-23.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_13-27.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_14-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_14-27.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_14-29.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_14-39.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_14-40.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-17_14-41.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_09-17.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_09-21.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_09-25.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_10-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_10-20.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_10-24.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_10-27.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_10-28.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_11-05.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_11-09.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_11-11.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_11-13.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_16-25.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_16-59.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_17-15.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-18_17-17.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_14-01.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_14-03.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_14-14.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_14-16.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_14-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_14-20.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_14-22.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_14-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_15-03.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-23_15-06.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-29_20-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-29_22-11.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-29_22-13.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-29_23-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-29_23-11.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_12-47.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_13-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_13-37.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_13-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_14-05.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_14-06.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_14-07.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_14-09.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_15-32.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_16-19.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-04-30_19-07.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_13-34.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_13-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_13-39.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_15-52.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_16-03.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_16-20.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_16-36.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_17-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_17-32.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_17-45.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_19-32.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_20-29.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_20-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_20-59.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_21-13.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_22-11.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_22-25.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_23-04.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_23-05.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-01_23-06.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_08-59.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_09-03.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_09-06.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_09-07.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_09-56.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_12-29.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_12-36.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_13-27.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_13-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_13-40.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_13-41.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_15-24.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_15-32.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_15-58.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_16-05.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_16-06.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_16-07.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_16-08.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-02_16-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-04_10-44.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-04_15-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-05_22-25.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-05_22-28.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_12-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_12-40.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_14-12.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_14-19.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_14-20.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_14-21.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_14-22.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_14-23.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_21-55.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-06_21-56.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-08_11-37.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-08_11-49.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-08_11-50.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-12_00-08.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_00-39.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_00-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_01-04.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_01-08.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_01-12.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_01-16.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_01-17.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_07-59.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-07.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-17.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-27.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-28.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-29.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-36.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_08-39.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_09-50.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_09-57.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_09-58.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_09-59.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_10-02.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_10-03.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_10-04.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_10-07.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_10-15.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_10-49.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_10-51.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_10-56.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_13-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_13-19.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_13-24.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_13-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_13-33.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_14-57.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_15-04.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_15-08.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-13_15-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_12-30.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_12-35.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_12-58.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-02.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-16.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-26.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-27.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-30.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-36.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-39.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-41.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-44.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-45.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-47.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-49.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_13-51.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-02.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-16.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-19.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-20.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-24.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-25.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-45.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_15-46.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_19-46.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_19-48.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_19-49.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_19-52.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_20-01.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_20-12.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-22_20-15.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_07-50.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_07-56.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_07-57.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_08-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_08-16.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_08-21.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_08-24.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_08-28.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_08-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_08-43.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_08-53.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-01.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-03.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-05.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-06.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-10.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-14.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-15.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-16.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_09-18.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-16.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-25.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-32.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-38.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-40.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-42.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-44.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-45.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-46.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-47.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_10-51.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_11-31.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_11-32.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_11-34.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_11-35.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_11-40.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_11-44.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_12-17.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_12-19.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_12-20.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_12-21.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_12-33.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-00.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-03.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-05.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-09.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-11.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-19.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-22.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-27.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-32.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-33.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-37.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-42.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-44.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-46.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-49.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-53.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-56.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_13-59.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db_dumps/hireThem_db_2016-05-23_14-01.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hire_them_db.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/content/about.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/dao/EducationDaoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/dao/HibernateDaoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/dao/ResumeDaoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/dao/UserDaoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/dao/VacancyDaoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/dao/WorkExperienceDaoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/entity/EducationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/entity/ResumeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/entity/UserTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/entity/VacancyTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/entity/WorkExperienceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/AuthenticationServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/EducationsServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/ResumeCreationDeletionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/ResumeServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/UserCreationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/UserDeletionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/UserServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/VacancyServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/service/WorkExperienceServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/util/CsvGenerationUtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/util/HibernateUtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/util/PasswordEncryptionServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/util/PdfGenerationUtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/github/hirethem/model/util/XlsGenerationUtilTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/contact.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/contact.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/partials/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/partials/footer.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/partials/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/partials/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/resume-list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/resume-list.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/resumes/CreateResumeAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/resumes/CreateResumeAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/resumes/DeleteResumeAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/resumes/DeleteResumeAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/resumes/DownloadResumesReportAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/resumes/DownloadResumesReportAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/resumes/ManageResumesAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/resumes/ManageResumesAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/resumes/ModifyResumeAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/resumes/ModifyResumeAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/users/CreateUserAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/users/CreateUserAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/users/DeleteUserAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/users/DeleteUserAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/users/DownloadUsersReportAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/users/DownloadUsersReportAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/users/ManageUsersAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/users/ManageUsersAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/users/ModifyUserAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/users/ModifyUserAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/vacancies/CreateVacancyAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/vacancies/CreateVacancyAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/vacancies/DeleteVacancyAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/vacancies/DeleteVacancyAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/vacancies/DownloadVacanciesReportAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/vacancies/DownloadVacanciesReportAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/vacancies/ManageVacanciesAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/vacancies/ManageVacanciesAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/vacancies/ModifyVacancyAdminPanelAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/admin/vacancies/ModifyVacancyAdminPanelAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/authentication/LoginAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/authentication/LoginAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/authentication/LogoutAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/authentication/LogoutAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/authentication/SigninAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/authentication/SigninAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/home/IndexAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/home/IndexAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/interceptor/AuthorizationInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/action/interceptor/AuthorizationInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/interceptor/AuthorizeAs.java" afterPath="$PROJECT_DIR$/src/main/java/action/interceptor/AuthorizeAs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/pages/PagesAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/pages/PagesAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/profile/CurrentUserProfileAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/profile/CurrentUserProfileAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/profile/EditProfileAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/profile/EditProfileAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/profile/ProfileAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/profile/ProfileAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/resumes/BrowseResumesAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/resumes/BrowseResumesAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/resumes/CreateResumeAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/resumes/CreateResumeAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/resumes/DeleteResumeAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/resumes/DeleteResumeAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/resumes/DownloadResumeAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/resumes/DownloadResumeAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/resumes/ManageResumesAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/resumes/ManageResumesAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/resumes/ModifyResumeAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/resumes/ModifyResumeAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/vacancies/BrowseVacanciesAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/vacancies/BrowseVacanciesAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/vacancies/CreateVacancyAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/vacancies/CreateVacancyAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/vacancies/DeleteVacancyAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/vacancies/DeleteVacancyAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/vacancies/DownloadVacancyAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/vacancies/DownloadVacancyAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/vacancies/ManageVacanciesAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/vacancies/ManageVacanciesAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/vacancies/ModifyVacancyAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/vacancies/ModifyVacancyAction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/constants/ActionMessages.java" afterPath="$PROJECT_DIR$/src/main/java/constants/ActionMessages.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/exception/ProjectException.java" afterPath="$PROJECT_DIR$/src/main/java/exception/ProjectException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/CookieDao.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/CookieDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/EducationDao.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/EducationDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/HibernateDao.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/HibernateDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/ResumeDao.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/ResumeDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/SessionDao.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/SessionDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/UserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/VacancyDao.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/VacancyDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/WorkExperienceDao.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/WorkExperienceDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/exception/DaoErrorMessages.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/exception/DaoErrorMessages.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/exception/DaoException.java" afterPath="$PROJECT_DIR$/src/main/java/model/dao/exception/DaoException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/entity/Education.java" afterPath="$PROJECT_DIR$/src/main/java/model/entity/Education.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/entity/Resume.java" afterPath="$PROJECT_DIR$/src/main/java/model/entity/Resume.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/model/entity/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/entity/Vacancy.java" afterPath="$PROJECT_DIR$/src/main/java/model/entity/Vacancy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/entity/WorkExperience.java" afterPath="$PROJECT_DIR$/src/main/java/model/entity/WorkExperience.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/AuthenticationService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/AuthenticationService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/CookieService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/CookieService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/CurrentUserService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/CurrentUserService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/EducationsService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/EducationsService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/LoginService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/LoginService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/LogoutService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/LogoutService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/ResumeService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/ResumeService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/SessionService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/SessionService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/UserService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/UserServiceWithAuthorization.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/UserServiceWithAuthorization.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/VacancyService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/VacancyService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/WorkExperienceService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/WorkExperienceService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/exception/ServiceErrorMessage.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/exception/ServiceErrorMessage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/service/exception/ServiceException.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/exception/ServiceException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/util/CsvGenerationUtil.java" afterPath="$PROJECT_DIR$/src/main/java/model/util/CsvGenerationUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/util/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/model/util/HibernateUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/util/PasswordEncryptionService.java" afterPath="$PROJECT_DIR$/src/main/java/model/util/PasswordEncryptionService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/util/PdfGenerationUtil.java" afterPath="$PROJECT_DIR$/src/main/java/model/util/PdfGenerationUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/util/XlsGenerationUtil.java" afterPath="$PROJECT_DIR$/src/main/java/model/util/XlsGenerationUtil.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HibernateDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/HibernateDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-resumes.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/content/admin-resumes.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pas</find>
+      <find>pass</find>
+      <find>passwi=</find>
+      <find>passwi</find>
+      <find>passw</find>
+      <find>passwo</find>
+      <find>password</find>
+      <find>dow</find>
+      <find>do</find>
+      <find>d</find>
+      <find>D</find>
+      <find>Down</find>
+      <find>Download</find>
+      <find>Download P</find>
+      <find>Download PDF</find>
+      <find>e</find>
+      <find>egorsh</find>
+      <find>egorshu</find>
+      <find>egorshulg</find>
+      <find>egorshulga</find>
+      <find>g</find>
+      <find>gi</find>
+      <find>git co</find>
+      <find>git con</find>
+      <find>git conf</find>
+      <find>git confi</find>
+      <find>git config</find>
+      <find>git c</find>
+      <find>git</find>
+      <find>git</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\УНИВЕР\3 КУРС\2 семестр\СПП(Java)\project\HireThem\src\main</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/content/admin-resumes.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.28/xwork-core-2.3.28.jar!/com/opensymphony/xwork2/ActionSupport.class" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/authentication/SigninAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/entity/Resume.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/resumes/ModifyResumeAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/dao/SessionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/resumes/CreateResumeAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/interceptor/AuthorizeAs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/admin/users/CreateUserAdminPanelAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/action/interceptor/AuthorizationInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/hirethem/model/util/XlsGenerationUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/content/resume-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/HibernateDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/action/admin/resumes/CreateResumeAdminPanelAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/action/admin/resumes/DownloadResumesReportAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/content/partials/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/content/contact.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/content/partials/footer.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="hirethem" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="hirethem" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="hirethem" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HireThem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HireThem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.HireThem">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HireThem" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="HireThem" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M18" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="HireThem:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_HireThem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7568" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HireThem:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.HireThem" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f760d8a-132f-48da-a2a4-f55989c512f7" name="Default" comment="" />
+      <created>1490898527857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490898527857</updated>
+      <workItem from="1490898529744" duration="2626000" />
+      <workItem from="1491744136468" duration="4060000" />
+      <workItem from="1491765319855" duration="3177000" />
+      <workItem from="1491925406775" duration="2037000" />
+      <workItem from="1491927991941" duration="8745000" />
+      <workItem from="1492022071218" duration="368000" />
+      <workItem from="1492080436154" duration="9288000" />
+      <workItem from="1492198399944" duration="4292000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34593000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21331316" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23600605" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21709532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.334471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17170954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/authentication/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/authentication/LogoutAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.4.1/commons-validator-1.4.1.jar!/org/apache/commons/validator/GenericValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="363" column="0" lean-forward="false" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="1438" column="0" lean-forward="false" selection-start-line="1438" selection-start-column="0" selection-end-line="1438" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.2/commons-lang3-3.2.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/CookieDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/EducationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/SessionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/authentication/SigninAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/Vacancy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/resumes/CreateResumeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/util/XlsGenerationUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/interceptor/AuthorizationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/admin/vacancies/ModifyVacancyAdminPanelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/admin/users/CreateUserAdminPanelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/CurrentUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/EducationsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-457">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-613">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/resumes/ModifyResumeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="100" column="17" lean-forward="false" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="102" column="62" lean-forward="false" selection-start-line="102" selection-start-column="62" selection-end-line="102" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/363c75/14d2c1b7-6cce-4e7e-9945-157b5dc3ace7/hire_them.resumes">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/14d2c1b7-6cce-4e7e-9945-157b5dc3ace7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/util/PasswordEncryptionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/twitter/lib/tmhOAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/interceptor/AuthorizeAs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/admin/resumes/ManageResumesAdminPanelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/admin/resumes/ModifyResumeAdminPanelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/admin/resumes/DeleteResumeAdminPanelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/util/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/CookieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/admin-vacancies.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="55" column="78" lean-forward="true" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/resume.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/entity/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/HibernateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/admin/resumes/CreateResumeAdminPanelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action/admin/resumes/DownloadResumesReportAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/admin-resumes-resume.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2295">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/faq.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4061">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/partials/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/363c75/14d2c1b7-6cce-4e7e-9945-157b5dc3ace7/hire_them.users">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/contact.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/resume-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="25" lean-forward="false" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/partials/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/content/admin-resumes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>HireThem:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HireThem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
