@@ -2,9 +2,6 @@ package model.service.exception;
 
 import exception.ProjectException;
 
-/**
- * Created by egors.
- */
 public class ServiceException extends ProjectException {
     public ServiceException(String message) {
         super(message);

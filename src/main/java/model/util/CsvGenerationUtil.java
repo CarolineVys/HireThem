@@ -14,9 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-/**
- * Created by Kirill on 03.05.2016.
- */
 public class CsvGenerationUtil {
 
     public static ByteArrayOutputStream generateVacanciesInCSV() throws IOException {

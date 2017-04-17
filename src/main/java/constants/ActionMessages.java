@@ -1,8 +1,5 @@
 package constants;
 
-/**
- * Created by egors.
- */
 public class ActionMessages {
 
     public static final String EMPTY_FIELD = "Field must not be empty";

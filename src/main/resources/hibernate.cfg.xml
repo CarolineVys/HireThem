@@ -12,7 +12,7 @@
             jdbc:mysql://localhost:3306/hire_them
         </property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">afterforever</property>
+        <property name="hibernate.connection.password">a7PNaYNY</property>
         <property name="hibernate.connection.pool_size">10</property>
         <property name="show_sql">true</property>
         <property name="dialect">

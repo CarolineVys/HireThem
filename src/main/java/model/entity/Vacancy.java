@@ -2,9 +2,6 @@ package model.entity;
 
 import javax.persistence.*;
 
-/**
- * Created by egors.
- */
 @Entity
 @Table(name = "vacancies")
 public class Vacancy {

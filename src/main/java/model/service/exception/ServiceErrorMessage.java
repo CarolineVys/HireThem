@@ -1,8 +1,5 @@
 package model.service.exception;
 
-/**
- * Created by egors.
- */
 public class ServiceErrorMessage {
 
     public static final String ENCTYPTION_EXCEPTION = "Unable to perform encryption";
