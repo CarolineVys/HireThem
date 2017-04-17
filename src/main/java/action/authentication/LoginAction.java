@@ -13,9 +13,6 @@ import java.util.List;
 
 import static constants.ActionMessages.EMPTY_FIELD;
 
-/**
- * Created by egors.
- */
 public class LoginAction extends ActionSupport {
 
     private String email;
