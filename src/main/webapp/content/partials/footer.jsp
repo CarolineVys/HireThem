@@ -14,14 +14,6 @@
                     reviews, career and job-search advice, and describe different job descriptions or employers. Through
                     a job website a prospective employee can locate and fill out a job application.</p>
             </div>
-
-            <div class="col-xs-6 col-md-3">
-                <h6>Company</h6>
-                <ul class="footer-links">
-                    <li><a href="faq">Help center</a></li>
-                    <li><a href="contact">Contact us</a></li>
-                </ul>
-            </div>
         </div>
 
         <hr>
