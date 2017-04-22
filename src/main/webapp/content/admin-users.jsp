@@ -47,8 +47,6 @@
             </s:if>
 
             <div class="col-xs-12 text-right">
-              <br>
-              <a class="btn btn-primary btn-sm" href="addNewUserAdmin">Add new user</a>
               <div class="action-btn">
                 <s:url id="usersPdf" action="downloadUsersReportPdf"/>
                 <s:url id="usersCsv" action="downloadUsersReportCsv"/>
