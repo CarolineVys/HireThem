@@ -2,10 +2,6 @@ package model.service;
 
 import model.service.exception.ServiceException;
 
-
-/**
- * Created by egors.
- */
 public class LogoutService {
 
     private CookieService cookieService = new CookieService();

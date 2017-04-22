@@ -10,9 +10,6 @@ import java.util.List;
 
 import static model.dao.exception.DaoErrorMessages.NOT_FOUND_USER;
 
-/**
- * Created by egors.
- */
 public class UserDao extends HibernateDao {
 
     public byte[] getSalt(String email, User.UserType userType) throws DaoException {

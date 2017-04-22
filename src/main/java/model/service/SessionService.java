@@ -7,9 +7,6 @@ import java.util.UUID;
 
 import static model.service.exception.ServiceErrorMessage.COOKIE_NOT_FOUND;
 
-/**
- * Created by egors.
- */
 public class SessionService {
 
     private SessionDao sessionDao = new SessionDao();

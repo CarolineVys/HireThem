@@ -1,8 +1,5 @@
 package exception;
 
-/**
- * Created by egors.
- */
 public class ProjectException extends Exception{
     private Exception maskedException;
 

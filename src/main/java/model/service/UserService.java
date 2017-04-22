@@ -10,9 +10,6 @@ import org.apache.http.client.utils.URIBuilder;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by egors.
- */
 public class UserService {
 
     private UserDao userDao = new UserDao();

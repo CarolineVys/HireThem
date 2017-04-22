@@ -220,18 +220,9 @@
             <result type="redirectAction">manageUsersAdmin</result>
             <result name="input">/content/admin-users-edit.jsp</result>
         </action>
-        <action name="addNewUserAdmin" class="action.admin.users.CreateUserAdminPanelAction" method="input">
-            <result name="input">/content/admin-users-user.jsp</result>
-        </action>
-        <action name="submitUserAdmin" class="action.admin.users.CreateUserAdminPanelAction" method="execute">
-            <result type="redirectAction">manageUsersAdmin</result>
-            <result name="input">/content/admin-users-user.jsp</result>
-        </action>
         <action name="deleteUserAdmin" class="action.admin.users.DeleteUserAdminPanelAction">
             <result type="redirectAction">manageUsersAdmin</result>
         </action>
-
-
 
         <action name="downloadResumePdf" class="action.resumes.DownloadResumeAction" method="downloadPdf">
             <result type="stream">

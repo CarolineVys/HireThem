@@ -6,10 +6,6 @@ import model.entity.User;
 import model.service.exception.ServiceException;
 import model.util.PasswordEncryptionService;
 
-
-/**
- * Created by egors.
- */
 public class LoginService {
 
     private CookieService cookieService = new CookieService();

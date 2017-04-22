@@ -6,9 +6,6 @@ import model.service.VacancyService;
 import model.service.exception.ServiceException;
 import com.opensymphony.xwork2.ActionSupport;
 
-/**
- * Created by egors.
- */
 public class IndexAction extends ActionSupport {
 
     private int vacanciesCount = 0;

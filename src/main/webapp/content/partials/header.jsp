@@ -54,13 +54,6 @@
                     </s:if>
                 </ul>
             </li>
-            <li>
-                <a href="#">Pages</a>
-                <ul>
-                    <li><a href="contact">Contact</a></li>
-                    <li><a href="faq">FAQ</a></li>
-                </ul>
-            </li>
 
             <s:if test="%{currentUser.isAdmin == true}">
                 <li>
