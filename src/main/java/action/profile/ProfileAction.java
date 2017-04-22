@@ -15,7 +15,6 @@ public class ProfileAction extends ActionSupport {
     protected String surname;
     protected String about;
     protected String contactInfo;
-    protected byte[] avatar;
 
     public String input() throws ServiceException {
         User user = new UserService().getUser(id);
@@ -23,7 +22,6 @@ public class ProfileAction extends ActionSupport {
         surname = user.getSurname();
         about = user.getAbout();
         contactInfo = user.getContactInfo();
-        avatar = user.getAvatar();
         email = user.getEmail();
         userType = user.getUserType();
         return INPUT;
@@ -59,14 +57,6 @@ public class ProfileAction extends ActionSupport {
 
     public void setContactInfo(String contactInfo) {
         this.contactInfo = contactInfo;
-    }
-
-    public byte[] getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(byte[] avatar) {
-        this.avatar = avatar;
     }
 
     public String getMailtoLink() throws ServiceException {

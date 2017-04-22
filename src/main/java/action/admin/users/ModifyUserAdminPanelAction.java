@@ -23,7 +23,6 @@ public class ModifyUserAdminPanelAction extends EditProfileAction {
         surname = user.getSurname();
         about = user.getAbout();
         contactInfo = user.getContactInfo();
-        avatar = user.getAvatar();
         userId = user.getId();
         isAdmin = user.getIsAdmin();
         userType = user.getUserType();
@@ -34,7 +33,7 @@ public class ModifyUserAdminPanelAction extends EditProfileAction {
         try {
             UserService userService = new UserService();
             User user = userService.getUser((Integer) new SessionService().getValue("userId"));
-            userService.changeUserInfo(user.getEmail(), user.getUserType(), name, surname, about, contactInfo, avatar);
+            userService.changeUserInfo(user.getEmail(), user.getUserType(), name, surname, about, contactInfo);
             if (isAdmin) {
                 userService.promoteUser(user.getEmail(), user.getUserType());
             } else {

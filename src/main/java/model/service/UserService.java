@@ -71,9 +71,9 @@ public class UserService {
     }
 
     public void changeUserInfo(String email, User.UserType userType, String name, String surname, String about,
-                               String contactInfo, byte[] avatar) throws ServiceException {
+                               String contactInfo) throws ServiceException {
         int userId = getUserId(email, userType);
-        userDao.updateUser(userId, name, surname, about, contactInfo, avatar);
+        userDao.updateUser(userId, name, surname, about, contactInfo);
     }
 
     public void promoteUser(String email, User.UserType userType) throws ServiceException {

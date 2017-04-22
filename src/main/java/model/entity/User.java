@@ -46,9 +46,6 @@ public class User {
     @Column(name = "contact_info")
     private String contactInfo;
 
-    @Column(name = "avatar")
-    private byte[] avatar;
-
     @Column(name = "is_admin", nullable = false)
     private boolean isAdmin;
 
@@ -141,14 +138,6 @@ public class User {
 
     public void setContactInfo(String contactInfo) {
         this.contactInfo = contactInfo;
-    }
-
-    public byte[] getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(byte[] avatar) {
-        this.avatar = avatar;
     }
 
     public boolean getIsAdmin() {

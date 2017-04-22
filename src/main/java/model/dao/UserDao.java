@@ -67,7 +67,7 @@ public class UserDao extends HibernateDao {
         session.getTransaction().commit();
     }
 
-    public void updateUser(int userId, String name, String surname, String about, String contactInfo, byte[] avatar) {
+    public void updateUser(int userId, String name, String surname, String about, String contactInfo) {
         session.beginTransaction();
 
         User user = session.get(User.class, userId);
@@ -75,7 +75,6 @@ public class UserDao extends HibernateDao {
         user.setSurname(surname);
         user.setAbout(about);
         user.setContactInfo(contactInfo);
-        user.setAvatar(avatar);
 
         session.getTransaction().commit();
     }

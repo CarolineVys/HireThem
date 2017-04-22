@@ -66,12 +66,12 @@ public class PdfGenerationUtil {
         document.add(paragraph);
         document.add(new LineSeparator());
 
-        if (user.getAvatar() != null) {
-//            image = Image.getInstance(user.getAvatar());
-//            image.scaleToFit(120, 160);
-//            image.setAlignment(Element.ALIGN_RIGHT | Image.TEXTWRAP | Element.ALIGN_TOP);
-//            document.add(image);
-        }
+/*        if (user.getAvatar() != null) {
+            image = Image.getInstance(user.getAvatar());
+            image.scaleToFit(120, 160);
+            image.setAlignment(Element.ALIGN_RIGHT | Image.TEXTWRAP | Element.ALIGN_TOP);
+            document.add(image);
+        }*/
 
         paragraph = new Paragraph(" ");
         paragraph.setSpacingAfter(VERTICAL_SPACE_SMALL);
@@ -289,12 +289,12 @@ public class PdfGenerationUtil {
         document.add(paragraph);
         document.add(new LineSeparator());
 
-        if (user.getAvatar() != null) {
-//            image = Image.getInstance(user.getAvatar());
-//            image.scaleToFit(120, 160);
-//            image.setAlignment(Element.ALIGN_RIGHT | Image.TEXTWRAP | Element.ALIGN_TOP);
-//            document.add(image);
-        }
+/*        if (user.getAvatar() != null) {
+            image = Image.getInstance(user.getAvatar());
+            image.scaleToFit(120, 160);
+            image.setAlignment(Element.ALIGN_RIGHT | Image.TEXTWRAP | Element.ALIGN_TOP);
+            document.add(image);
+        }*/
 
         paragraph = new Paragraph(" ");
         paragraph.setSpacingAfter(VERTICAL_SPACE_SMALL);

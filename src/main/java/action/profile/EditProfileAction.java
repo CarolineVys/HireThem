@@ -19,7 +19,6 @@ public class EditProfileAction extends ActionSupport {
     protected String surname;
     protected String about;
     protected String contactInfo;
-    protected byte[] avatar;
 
     private String oldPassword;
     private String newPassword;
@@ -33,7 +32,6 @@ public class EditProfileAction extends ActionSupport {
         surname = user.getSurname();
         about = user.getAbout();
         contactInfo = user.getContactInfo();
-        avatar = user.getAvatar();
         email = user.getEmail();
         return INPUT;
     }
@@ -41,7 +39,7 @@ public class EditProfileAction extends ActionSupport {
     public String execute() {
         try {
             User user = new CurrentUserService().getCurrentUserEntity();
-            userService.changeUserInfo(user.getEmail(), user.getUserType(), name, surname, about, contactInfo, avatar);
+            userService.changeUserInfo(user.getEmail(), user.getUserType(), name, surname, about, contactInfo);
             if (StringUtils.isNotEmpty(newPassword)) {
                 userService.changeUserPassword(user.getId(), newPassword);
             }
@@ -93,14 +91,6 @@ public class EditProfileAction extends ActionSupport {
 
     public void setContactInfo(String contactInfo) {
         this.contactInfo = contactInfo;
-    }
-
-    public byte[] getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(byte[] avatar) {
-        this.avatar = avatar;
     }
 
     public String getOldPassword() {

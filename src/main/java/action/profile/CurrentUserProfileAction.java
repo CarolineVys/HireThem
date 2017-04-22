@@ -14,7 +14,6 @@ public class CurrentUserProfileAction extends ProfileAction {
         surname = user.getSurname();
         about = user.getAbout();
         contactInfo = user.getContactInfo();
-        avatar = user.getAvatar();
         email = user.getEmail();
         userType = user.getUserType();
         return SUCCESS;
