@@ -65,18 +65,6 @@
             <result type="redirectAction">profile</result>
         </action>
 
-
-        <action name="about" class="action.pages.PagesAction" method="about">
-            <result name="about">/content/about.jsp</result>
-        </action>
-        <action name="contact" class="action.pages.PagesAction" method="contact">
-            <result name="contact">/content/contact.jsp</result>
-        </action>
-        <action name="faq" class="action.pages.PagesAction" method="faq">
-            <result name="faq">/content/faq.jsp</result>
-        </action>
-
-
         <action name="browseResumes" class="action.resumes.BrowseResumesAction" method="input">
             <result name="input">/content/resume-list.jsp</result>
         </action>
