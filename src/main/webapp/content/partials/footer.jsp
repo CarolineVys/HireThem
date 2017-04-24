@@ -6,7 +6,7 @@
     <!-- Top section -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-12">
                 <h6>About</h6>
                 <p class="text-justify">An employment website is a web site that deals specifically with employment or
                     careers. Many employment websites are designed to allow employers to post job requirements for a
@@ -20,15 +20,5 @@
     </div>
     <!-- END Top section -->
 
-    <!-- Bottom section -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-                <p class="copyright-text"></p>
-            </div>
-        </div>
-    </div>
-    <!-- END Bottom section -->
-
-</footer>
+    </footer>
 <!-- END Site footer -->
