@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f760d8a-132f-48da-a2a4-f55989c512f7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/contact_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.tweet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/npm.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/14d2c1b7-6cce-4e7e-9945-157b5dc3ace7.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/14d2c1b7-6cce-4e7e-9945-157b5dc3ace7.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/grayscale.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/grayscale.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/responsive.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/basic.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/grayscale.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/grayscale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes-resume.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes-resume.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-users-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-users-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-vacancies-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-vacancies-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-vacancies-vacancy.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-vacancies-vacancy.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-vacancies.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-vacancies.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/employee-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/employee-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/profile.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/profile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/resume-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/resume-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/resume-list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/resume-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/resume-manage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/resume-manage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/resume.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/resume.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/vacancy-detail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/vacancy-detail.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/vacancy-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/vacancy-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/vacancy-list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/vacancy-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/vacancy-manage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/vacancy-manage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/vacancy.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/vacancy.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1045,7 +1012,7 @@
       <workItem from="1492870487927" duration="1010000" />
       <workItem from="1492886667355" duration="1138000" />
       <workItem from="1492936343021" duration="458000" />
-      <workItem from="1493127781166" duration="3771000" />
+      <workItem from="1493127781166" duration="3824000" />
     </task>
     <task id="LOCAL-00001" summary="commments are deleted">
       <created>1492447423080</created>
@@ -1082,11 +1049,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492887708249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some fales unusfull">
+      <created>1493131860609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1493131860609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55593000" />
+    <option name="totallyTimeSpent" value="55646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1104,7 +1078,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34300342" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12781955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12781955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1120,7 +1094,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34192038" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34192038" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1204,7 +1178,8 @@
     <MESSAGE value="contacts and faq are deleted" />
     <MESSAGE value="test" />
     <MESSAGE value="folder twitter safely are deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="folder twitter safely are deleted" />
+    <MESSAGE value="some fales unusfull" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fales unusfull" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
