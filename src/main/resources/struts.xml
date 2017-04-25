@@ -337,11 +337,6 @@
             </result>
         </action>
 
-
-
-
-
-
         <action name="logout" class="action.authentication.LogoutAction">
             <result type="redirectAction">index</result>
         </action>

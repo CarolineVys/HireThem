@@ -22,6 +22,4 @@ public class ManageVacanciesAdminPanelAction extends ManageVacanciesAction {
             return null;
         }
     }
-
-
 }

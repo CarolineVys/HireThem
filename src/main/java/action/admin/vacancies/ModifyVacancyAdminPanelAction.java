@@ -16,6 +16,4 @@ public class ModifyVacancyAdminPanelAction extends ModifyVacancyAction {
             return null;
         }
     }
-
-
 }

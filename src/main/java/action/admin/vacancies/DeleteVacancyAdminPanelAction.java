@@ -16,6 +16,4 @@ public class DeleteVacancyAdminPanelAction extends DeleteVacancyAction {
             return null;
         }
     }
-
-
 }

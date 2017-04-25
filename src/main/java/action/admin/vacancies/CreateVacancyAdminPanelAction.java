@@ -26,6 +26,4 @@ public class CreateVacancyAdminPanelAction extends CreateVacancyAction {
             return null;
         }
     }
-
-
 }

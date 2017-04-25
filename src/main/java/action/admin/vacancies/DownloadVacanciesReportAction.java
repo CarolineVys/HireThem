@@ -59,6 +59,4 @@ public class DownloadVacanciesReportAction extends ActionSupport {
             return null;
         }
     }
-
-
 }
