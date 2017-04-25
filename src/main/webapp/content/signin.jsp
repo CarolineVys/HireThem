@@ -103,7 +103,6 @@
 
     <!-- Scripts -->
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/custom.js"></script>
 
   </body>
 </html>

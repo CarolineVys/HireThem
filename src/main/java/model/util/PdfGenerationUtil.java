@@ -52,26 +52,12 @@ public class PdfGenerationUtil {
         writer.createXmpMetadata();
         document.open();
 
-        Image image;
-//        PdfContentByte canvas = writer.getDirectContentUnder();
-//        image = Image.getInstance(ByteArrayOutputStream.class.getResource(TEMPLATE));
-//        image.scaleAbsolute(PageSize.A4);
-//        image.setAbsolutePosition(0, 0);
-//        canvas.addImage(image);
-
         Paragraph paragraph = new Paragraph();
         paragraph.setFont(FontFactory.getFont(FontFactory.TIMES_BOLD, FONT_SIZE_BIG + 4));
         paragraph.setSpacingAfter(VERTICAL_SPACE_TINY);
         paragraph.add(new Chunk("Resume"));
         document.add(paragraph);
         document.add(new LineSeparator());
-
-/*        if (user.getAvatar() != null) {
-            image = Image.getInstance(user.getAvatar());
-            image.scaleToFit(120, 160);
-            image.setAlignment(Element.ALIGN_RIGHT | Image.TEXTWRAP | Element.ALIGN_TOP);
-            document.add(image);
-        }*/
 
         paragraph = new Paragraph(" ");
         paragraph.setSpacingAfter(VERTICAL_SPACE_SMALL);
@@ -275,26 +261,12 @@ public class PdfGenerationUtil {
         writer.createXmpMetadata();
         document.open();
 
-        Image image;
-//        PdfContentByte canvas = writer.getDirectContentUnder();
-//        Image image = Image.getInstance(ByteArrayOutputStream.class.getResource(TEMPLATE));
-//        image.scaleAbsolute(PageSize.A4);
-//        image.setAbsolutePosition(0, 0);
-//        canvas.addImage(image);
-
         Paragraph paragraph = new Paragraph();
         paragraph.setFont(FontFactory.getFont(FontFactory.TIMES_BOLD, FONT_SIZE_BIG + 4));
         paragraph.setSpacingAfter(VERTICAL_SPACE_TINY);
         paragraph.add(new Chunk("Vacancy"));
         document.add(paragraph);
         document.add(new LineSeparator());
-
-/*        if (user.getAvatar() != null) {
-            image = Image.getInstance(user.getAvatar());
-            image.scaleToFit(120, 160);
-            image.setAlignment(Element.ALIGN_RIGHT | Image.TEXTWRAP | Element.ALIGN_TOP);
-            document.add(image);
-        }*/
 
         paragraph = new Paragraph(" ");
         paragraph.setSpacingAfter(VERTICAL_SPACE_SMALL);

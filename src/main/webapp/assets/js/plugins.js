@@ -46,6 +46,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
  * });
  */
 
+onePageNav
 ;(function($, window, document, undefined){
 
 // our plugin constructor

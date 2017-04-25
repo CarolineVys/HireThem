@@ -52,10 +52,7 @@ jQuery(document).ready(function(){
 					}
 				);
 			}
-			
-			
-			
-			
+
 			//FANCYBOX FOR PORTFOLIO
 			jQuery('.fancybox').fancybox();
 					
@@ -96,17 +93,7 @@ jQuery(document).ready(function(){
 				function(){
 					jQuery('.image_overlay',this).css('visibility','hidden');
 				}
-			);	
-			
-			
-			//TWITTER FEED
-			if(jQuery('#twitter').length != 0){
-				jQuery('#twitter').getTwitter({
-				userName: 'ipad3review',
-				numTweets: '3',
-				loaderText: 'Loading...'
-				});
-			}
+			);
 			
 			
 			//TABS
@@ -132,7 +119,5 @@ jQuery(document).ready(function(){
 			if(jQuery('#carousel').length != 0){
 				jQuery('#carousel').tinycarousel({start: 2});
 			}
-			
-			
-			
+
 });	
