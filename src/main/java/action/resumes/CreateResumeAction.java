@@ -61,7 +61,7 @@ public class CreateResumeAction extends ActionSupport {
         if (StringUtils.isEmpty(summary)) {
             addActionError("Summary cannot be empty");
         }
-        if (StringUtils.isNotBlank(university)) {
+        /*if (StringUtils.isNotBlank(university)) {
             if (!GenericValidator.isDate(educationEndDate, Locale.forLanguageTag("ru")) ||
                     !GenericValidator.isDate(educationStartDate, Locale.forLanguageTag("ru"))) {
                 addActionError("Education date is in wrong format");
@@ -79,6 +79,7 @@ public class CreateResumeAction extends ActionSupport {
                 }
             }
         }
+        */
     }
 
     public String getDescription() {
