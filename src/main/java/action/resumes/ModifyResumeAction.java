@@ -89,7 +89,7 @@ public class ModifyResumeAction extends ActionSupport {
             addActionError("Summary cannot be empty");
         }
 
-        if (StringUtils.isNotBlank(university)) {
+        /*if (StringUtils.isNotBlank(university)) {
             if (!GenericValidator.isDate(educationStartDate, Locale.forLanguageTag("ru")) ||
                     !GenericValidator.isDate(educationEndDate, Locale.forLanguageTag("ru"))) {
                 addActionError("Work experience date is in wrong format");
@@ -108,6 +108,7 @@ public class ModifyResumeAction extends ActionSupport {
                 }
             }
         }
+        */
     }
 
     public int getResumeId() {
