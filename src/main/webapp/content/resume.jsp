@@ -106,7 +106,7 @@
                         <div class="form-group">
                           <div class="input-group">
                             <span class="input-group-addon">Date from</span>
-                            <select style="width: 150px" id="educationStartDate" class="form-control" name="educationStartDate"  data-id="<s:property value="%{educationStartDate}"/>"> </select>
+                            <select style="width: 150px" id="educationStartDate" class="form-control" name="educationStartDate" data-id="<s:property value="%{educationStartDate}"/>"> </select>
 
                             <span class="input-group-addon">Date to</span>
                             <select style="width: 150px" id="educationEndDate" class="form-control" name="educationEndDate" data-id="<s:property value="%{educationEndDate}"/>"> </select>
@@ -158,9 +158,9 @@
                         <div class="form-group">
                           <div class="input-group">
                             <span class="input-group-addon">Date from</span>
-                            <input type="text" name="workExperienceStartDate" class="form-control" placeholder="e.g. 2012" value="<s:property value="%{workExperienceStartDate}"/>">
+                              <select style="width: 150px" id="workExperienceStartDate" name="workExperienceStartDate" class="form-control" value="<s:property value="%{workExperienceStartDate}"/>"> </select>
                             <span class="input-group-addon">Date to</span>
-                            <input type="text" name="workExperienceEndDate" class="form-control" placeholder="e.g. 2016" value="<s:property value="%{workExperienceEndDate}"/>">
+                              <select style="width: 150px" id="workExperienceEndDate" name="workExperienceEndDate" class="form-control" value="<s:property value="%{workExperienceEndDate}"/>"> </select>
                           </div>
                         </div>
 
@@ -197,7 +197,6 @@
         </section>
         <!-- END Submit -->
 
-
       </main>
       <!-- END Main container -->
 
@@ -215,7 +214,27 @@
       {
           $('#educationStartDate').append($('<option />').val(i).html(i));
           $('#educationEndDate').append($('<option />').val(i).html(i));
+          $('#workExperienceStartDate').append($('<option />').val(i).html(i));
+          $('#workExperienceEndDate').append($('<option />').val(i).html(i));
       }
+
+      $("#educationStartDate").change(function() {
+          var changedStart = $("#educationStartDate").val();
+          $('#educationEndDate').empty();
+          for (var i = new Date().getFullYear(); i >= changedStart; i--)
+          {
+              $('#educationEndDate').append($('<option />').val(i).html(i));
+          }
+      });
+
+      $("#workExperienceStartDate").change(function() {
+          var changedWorkStart = $("#workExperienceStartDate").val();
+          $('#workExperienceEndDate').empty();
+          for (var i = new Date().getFullYear(); i >= changedWorkStart; i--)
+          {
+              $('#workExperienceEndDate').append($('<option />').val(i).html(i));
+          }
+      });
 
   </script>
 

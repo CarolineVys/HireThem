@@ -157,10 +157,10 @@
                         <div class="form-group">
                           <div class="input-group">
                             <span class="input-group-addon">Date from</span>
-                            <input id="workStart" type="text" name="startDate" class="form-control" placeholder="e.g. 2012" value="<s:property value="%{workExperienceStartDate}"/>">
+                              <select style="width: 150px" id="workExperienceStart" type="text" name="workExperienceStart" class="form-control" data-id="<s:property value="%{workExperienceStartDate}"/>"> </select>
 
                               <span class="input-group-addon">Date to</span>
-                            <input id="workEnd" type="text" name="endDate" class="form-control" placeholder="e.g. 2016" value="<s:property value="%{workExperienceEndDate}"/>">
+                              <select style="width: 150px" id="workExperienceEnd" type="text" name="workExperienceEnd" class="form-control" data-id="<s:property value="%{workExperienceEndDate}"/>"> </select>
                           </div>
                         </div>
 
@@ -211,6 +211,7 @@
 
 <!-- Scripts -->
   <script type="text/javascript">
+
       for (var i = new Date().getFullYear(); i > 1900; i--)
       {
           if ($('#startDate').attr("data-id") == i)
@@ -227,6 +228,42 @@
               $('#endDate').append($('<option />').val(i).html(i));
           }
       }
+
+      for (var i = new Date().getFullYear(); i > 1900; i--)
+      {
+          if ($('#workExperienceStart').attr("data-id") == i)
+          {
+              $('#workExperienceStart').append($('<option/>').val(i).attr("selected", "selected").html(i));
+          }
+          else if ($('#workExperienceEnd').attr("data-id") == i)
+          {
+              $('#workExperienceEnd').append($('<option />').val(i).attr("selected", "selected").html(i));
+          }
+          else
+          {
+              $('#workExperienceStart').append($('<option />').val(i).html(i));
+              $('#workExperienceEnd').append($('<option />').val(i).html(i));
+          }
+      }
+
+
+      $("#startDate").change(function() {
+          var changedStart = $("#startDate").val();
+          $('#endDate').empty();
+          for (var i = new Date().getFullYear(); i >= changedStart; i--)
+          {
+              $('#endDate').append($('<option />').val(i).html(i));
+          }
+      });
+
+      $("#workExperienceStart").change(function() {
+          var changedWorkStart = $("#workExperienceStart").val();
+          $('#endDate').empty();
+          for (var i = new Date().getFullYear(); i >= changedWorkStart; i--)
+          {
+              $('#workExperienceEnd').append($('<option />').val(i).html(i));
+          }
+      });
 
   </script>
 
