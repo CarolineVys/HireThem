@@ -30,6 +30,4 @@ public class DeleteVacancyAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

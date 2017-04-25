@@ -30,6 +30,4 @@ public class DeleteResumeAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

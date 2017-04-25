@@ -112,5 +112,4 @@ public class Resume {
         this.skills = skills;
     }
 
-
 }

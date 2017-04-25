@@ -49,5 +49,4 @@ public class EducationsService {
         educationDao.deleteEducation(educationId);
     }
 
-
 }

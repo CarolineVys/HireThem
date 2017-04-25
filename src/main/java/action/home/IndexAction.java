@@ -30,5 +30,4 @@ public class IndexAction extends ActionSupport {
             return null;
         }
     }
-
 }

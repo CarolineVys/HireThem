@@ -66,6 +66,4 @@ public class DownloadResumeAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

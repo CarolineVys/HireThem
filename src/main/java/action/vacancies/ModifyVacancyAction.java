@@ -112,6 +112,4 @@ public class ModifyVacancyAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

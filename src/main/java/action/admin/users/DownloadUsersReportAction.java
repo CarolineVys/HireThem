@@ -59,6 +59,4 @@ public class DownloadUsersReportAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

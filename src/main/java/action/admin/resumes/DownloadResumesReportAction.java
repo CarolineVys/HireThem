@@ -59,6 +59,4 @@ public class DownloadResumesReportAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

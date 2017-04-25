@@ -63,6 +63,4 @@ public class ManageVacanciesAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

@@ -217,6 +217,4 @@ public class CreateResumeAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

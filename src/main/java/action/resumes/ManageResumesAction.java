@@ -44,6 +44,4 @@ public class ManageResumesAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

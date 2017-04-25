@@ -124,5 +124,4 @@ public class EditProfileAction extends ActionSupport {
             return null;
         }
     }
-
 }

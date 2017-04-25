@@ -66,6 +66,4 @@ public class DownloadVacancyAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

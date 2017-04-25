@@ -269,6 +269,4 @@ public class ModifyResumeAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

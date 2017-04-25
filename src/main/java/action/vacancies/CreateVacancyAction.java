@@ -91,6 +91,4 @@ public class CreateVacancyAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

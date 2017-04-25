@@ -34,6 +34,4 @@ public class DeleteUserAdminPanelAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

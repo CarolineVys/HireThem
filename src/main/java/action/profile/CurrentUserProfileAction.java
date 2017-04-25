@@ -26,6 +26,4 @@ public class CurrentUserProfileAction extends ProfileAction {
             return null;
         }
     }
-
-
 }

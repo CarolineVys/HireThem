@@ -22,7 +22,4 @@ public class ManageResumesAdminPanelAction extends ManageResumesAction {
             return null;
         }
     }
-
-
-
 }

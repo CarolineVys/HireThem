@@ -11,5 +11,4 @@ public class LogoutAction extends ActionSupport {
         logoutService.logoutUser();
         return SUCCESS;
     }
-
 }

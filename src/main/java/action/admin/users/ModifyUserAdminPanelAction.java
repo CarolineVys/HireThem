@@ -83,5 +83,4 @@ public class ModifyUserAdminPanelAction extends EditProfileAction {
         return User.UserType.values();
     }
 
-
 }

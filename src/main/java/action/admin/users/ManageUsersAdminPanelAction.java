@@ -49,6 +49,4 @@ public class ManageUsersAdminPanelAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

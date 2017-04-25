@@ -105,6 +105,4 @@ public class BrowseResumesAction extends ActionSupport {
             return null;
         }
     }
-
-
 }

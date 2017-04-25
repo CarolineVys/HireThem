@@ -109,5 +109,4 @@ public class Education {
         this.description = description;
     }
 
-
 }
