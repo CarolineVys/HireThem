@@ -22,6 +22,10 @@
     <!-- Supersized -->
     <link href="../assets/css/supersized.css" rel="stylesheet">
     <link href="../assets/css/supersized.shutter.css" rel="stylesheet">
+
+    <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.numeric.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.jstepper.js"></script>
 	
 	<title>Profile</title>
 	
@@ -73,19 +77,18 @@
           <div class="form-group col-xs-12 col-sm-6 col-md-4">
             <div class="input-group input-group-sm">
               <span class="input-group-addon"><i class="fa fa-money"></i></span>
-              <input type="text" class="form-control" placeholder="Salary" name="salary" value="<s:property value="salary"/>">
+              <input id="salary" type="text" class="form-control" placeholder="Salary" name="salary" value="<s:property value="salary"/>">
             </div>
           </div>
 
           <div class="form-group col-xs-12 col-sm-6 col-md-4">
             <div class="input-group input-group-sm">
               <span class="input-group-addon"><i class="fa fa-flask"></i></span>
-              <input type="text" class="form-control" placeholder="Experience, e.g. 5" name="requiredExperience" value="<s:property value="requiredExperience"/>">
+              <input id="workYears" type="text" class="form-control" placeholder="Experience, e.g. 5" name="requiredExperience" value="<s:property value="requiredExperience"/>">
               <span class="input-group-addon">Years</span>
             </div>
           </div>
         </div>
-      </div>
     </header>
     <!-- END Page header -->
 	</section>
@@ -120,6 +123,13 @@
 <!-- END Back to top button -->
 
 <!-- Scripts -->
+  <script type="text/javascript">
+      $("#salary").numeric();
+      $("#workYears").numeric();
+      $('#salary').jStepper({minValue:0, maxValue:999999});
+      $('#workYears').jStepper({minValue:0, maxValue:99});
+  </script>
+
 <script src="../assets/js/app.min.js"></script>
 <script src="../assets/js/custom.js"></script>
 
