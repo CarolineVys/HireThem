@@ -258,7 +258,7 @@
 
       $("#workExperienceStart").change(function() {
           var changedWorkStart = $("#workExperienceStart").val();
-          $('#endDate').empty();
+          $('#workExperienceEnd').empty();
           for (var i = new Date().getFullYear(); i >= changedWorkStart; i--)
           {
               $('#workExperienceEnd').append($('<option />').val(i).html(i));
