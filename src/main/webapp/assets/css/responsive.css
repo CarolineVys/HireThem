@@ -30,12 +30,7 @@
 		font-size: 24px;
 		line-height: 50px;
 	}
-	
-	#twitter-feed {
-		padding-top: 110px;
-		padding-bottom: 110px;	
-	}
-	
+
 	.info-block a.button {
     	margin-top: 20px;
     	position: inherit;
@@ -64,7 +59,6 @@
 	#navigation-mobile,
 	.page,
 	.page-alternate,
-	#twitter-feed,
 	footer {
 		margin-left: -20px;
 		margin-right: -20px;
@@ -153,14 +147,7 @@
 		padding-top: 30px;
 		text-align: center;	
 	}
-	
-	#contact-form .submit {
-		width: 100%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;	
-	}
-	
+
 	#social-area #social ul li:first-child,
 	#social-area #social ul li {
 		margin: 15px;
@@ -175,22 +162,7 @@
 		font-size: 24px;
 		line-height: 50px;
 	}
-	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 100px;	
-	}
-	
-	#ticker .tweet_list li {
-		font-size: 16px;
-		line-height: 24px;
-	}
-	
-	#ticker .tweet_list .tweet_time a {
-		font-size: 13px;
-		margin-left: 5px;	
-	}
-	
+
 	.info-block a.button {
     	margin-top: 20px;
     	position: inherit;
@@ -224,7 +196,7 @@
 	#navigation-mobile,
 	.page,
 	.page-alternate,
-	#twitter-feed,
+
 	footer {
 		margin-left: -20px;
 		margin-right: -20px;
@@ -322,14 +294,7 @@
 		padding-top: 30px;
 		text-align: center;	
 	}
-	
-	#contact-form .submit {
-		width: 100%;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;	
-	}
-	
+
 	#social-area #social ul li:first-child,
 	#social-area #social ul li {
 		margin: 15px;
@@ -343,21 +308,6 @@
 	#social-area #social ul li a span {
 		font-size: 24px;
 		line-height: 50px;
-	}
-	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 100px;	
-	}
-	
-	#ticker .tweet_list li {
-		font-size: 14px;
-		line-height: 22px;
-	}
-	
-	#ticker .tweet_list .tweet_time a {
-		font-size: 12px;
-		margin-left: 3px;	
 	}
 	
 	.info-block a.button {
@@ -379,11 +329,7 @@
 	.work-nav #filters li a {
 		font-size: 12px;
 	}
-	
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 120px;	
-	}
+
 }
 
 
