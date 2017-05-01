@@ -10,7 +10,6 @@
     <!-- Custom CSS -->
     <link href="../assets/css/grayscale.css" rel="stylesheet">
 
-
     <link href="../assets/css/app.min.css" rel="stylesheet">
     <link href="../assets/css/custom.css" rel="stylesheet">
 
@@ -32,7 +31,6 @@
     </div>
 	<br><br>
 </header>
-
 
 <!-- Categories -->
 <section class="bg-alt">

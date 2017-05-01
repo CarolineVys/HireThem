@@ -1,6 +1,3 @@
-<%--
-  User: egors
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
@@ -19,6 +16,8 @@
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>Login</title>
 </head>
 
 <body class="login-page">

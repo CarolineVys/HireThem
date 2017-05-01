@@ -7,14 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <!-- Custom CSS -->
     <link href="../assets/css/grayscale.css" rel="stylesheet">
 
-
     <link href="../assets/css/app.min.css" rel="stylesheet">
     <link href="../assets/css/custom.css" rel="stylesheet">
-
 
     <!-- Main Style -->
     <link href="../assets/css/main.css" rel="stylesheet">
@@ -27,7 +24,7 @@
     <script type="text/javascript" src="../assets/js/jquery.numeric.js"></script>
     <script type="text/javascript" src="../assets/js/jquery.jstepper.js"></script>
 	
-	<title>Profile</title>
+	<title>Add vacancy</title>
 	
   </head>
 
@@ -65,8 +62,7 @@
           <div class="form-group col-xs-12">
             <textarea class="form-control" rows="3" placeholder="Summary" name="summary"><s:property value="summary"/></textarea>
           </div>
-		  
-		  
+
           <div class="form-group col-xs-12 col-sm-6 col-md-4">
             <div class="input-group input-group-sm">
               <span class="input-group-addon"><i class="fa fa-briefcase"></i></span>
@@ -110,7 +106,6 @@
         </section>
         <!-- END Submit -->
 
-
     </main>
     <!-- END Main container -->
   </s:form>
@@ -118,25 +113,25 @@
   <s:include value="partials/footer.jsp"/>
 
 
-<!-- Back to top button -->
-<a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
-<!-- END Back to top button -->
+  <!-- Back to top button -->
+  <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
+  <!-- END Back to top button -->
 
-<!-- Scripts -->
-  <script type="text/javascript">
-      $("#salary").numeric();
-      $("#workYears").numeric();
-      $('#salary').jStepper({minValue:0, maxValue:999999});
-      $('#workYears').jStepper({minValue:0, maxValue:99});
-  </script>
+  <!-- Scripts -->
+    <script type="text/javascript">
+        $("#salary").numeric();
+        $("#workYears").numeric();
+        $('#salary').jStepper({minValue:0, maxValue:999999});
+        $('#workYears').jStepper({minValue:0, maxValue:99});
+    </script>
 
-<script src="../assets/js/app.min.js"></script>
+  <script src="../assets/js/app.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../assets/js/bootstrap.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../assets/js/bootstrap.min.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="../assets/js/grayscale.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="../assets/js/grayscale.js"></script>
 
-</body>
+  </body>
 </html>

@@ -7,14 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <!-- Custom CSS -->
     <link href="../assets/css/grayscale.css" rel="stylesheet">
 
-
     <link href="../assets/css/app.min.css" rel="stylesheet">
     <link href="../assets/css/custom.css" rel="stylesheet">
-
 
     <!-- Main Style -->
     <link href="../assets/css/main.css" rel="stylesheet">
@@ -23,7 +20,7 @@
     <link href="../assets/css/supersized.css" rel="stylesheet">
     <link href="../assets/css/supersized.shutter.css" rel="stylesheet">
 	
-	<title>Profile</title>
+	<title>Vacancy</title>
 	
   </head>
 
@@ -55,23 +52,23 @@
       </div>
     </header>
     <!-- END Page header -->
-<main></main>
-</section>
+  <main></main>
+  </section>
 
-    <s:include value="partials/footer.jsp"/>
+  <s:include value="partials/footer.jsp"/>
 
-<!-- Back to top button -->
-<a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
-<!-- END Back to top button -->
+  <!-- Back to top button -->
+  <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
+  <!-- END Back to top button -->
 
-<!-- Scripts -->
-<script src="../assets/js/app.min.js"></script>
+  <!-- Scripts -->
+  <script src="../assets/js/app.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../assets/js/bootstrap.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../assets/js/bootstrap.min.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="../assets/js/grayscale.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="../assets/js/grayscale.js"></script>
 
-</body>
+  </body>
 </html>

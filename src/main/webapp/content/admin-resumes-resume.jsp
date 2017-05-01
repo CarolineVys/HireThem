@@ -7,14 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
   <!-- Custom CSS -->
   <link href="../assets/css/grayscale.css" rel="stylesheet">
 
-
   <link href="../assets/css/app.min.css" rel="stylesheet">
   <link href="../assets/css/custom.css" rel="stylesheet">
-
 
   <!-- Main Style -->
   <link href="../assets/css/main.css" rel="stylesheet">
@@ -25,7 +22,7 @@
 
   <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
 
-  <title>Profile</title>
+  <title>Edit resume</title>
 
 </head>
 
@@ -40,14 +37,13 @@
     <br><br>
     <header class="page-header-my">
       <div class="container page-name">
-        <h1 class="text-center">Edit your resume</h1>
+        <h1 class="text-center">Add your resume</h1>
         <s:if test="hasActionErrors()">
           <a><s:actionerror/></a>
         </s:if>
       </div>
 
       <div class="container">
-
 
         <div class="col-xs-12">
           <s:if test="hasActionErrors()">
@@ -129,7 +125,6 @@
     </section>
     <!-- END Education -->
 
-
     <!-- Work Experience -->
     <section class="bg-img" style="background-image: url(../assets/img/bg-facts.jpg);">
       <div class="container">
@@ -139,13 +134,10 @@
         </header>
 
         <div class="row">
-
           <div id="duplicator" class="col-xs-12">
             <div class="item-block">
               <div class="item-form">
-
                 <div class="row">
-
                   <div class="col-xs-12">
                     <div class="form-group">
                       <input type="text" name="companyName" class="form-control" placeholder="Company name" value="<s:property value="%{companyName}"/>">
@@ -198,20 +190,19 @@
     </section>
     <!-- END Submit -->
 
-
   </main>
   <!-- END Main container -->
 
-</s:form>
+  </s:form>
 
-<s:include value="partials/footer.jsp"/>
+  <s:include value="partials/footer.jsp"/>
 
-<!-- Back to top button -->
-<a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
-<!-- END Back to top button -->
+  <!-- Back to top button -->
+  <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
+  <!-- END Back to top button -->
 
-<!-- Scripts -->
-<script type="text/javascript">
+  <!-- Scripts -->
+  <script type="text/javascript">
 
     for (var i = new Date().getFullYear(); i > 1900; i--)
     {
@@ -247,7 +238,6 @@
         }
     }
 
-
     $("#startDate").change(function() {
         var changedStart = $("#startDate").val();
         $('#endDate').empty();
@@ -265,16 +255,15 @@
             $('#workExperienceEnd').append($('<option />').val(i).html(i));
         }
     });
+  </script>
 
-</script>
+  <script src="../assets/js/app.min.js"></script>
 
-<script src="../assets/js/app.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../assets/js/bootstrap.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../assets/js/bootstrap.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="../assets/js/grayscale.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="../assets/js/grayscale.js"></script>
-
-</body>
+  </body>
 </html>

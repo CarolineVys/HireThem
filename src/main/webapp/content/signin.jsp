@@ -1,6 +1,3 @@
-<%--
-  User: egors
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
@@ -19,6 +16,9 @@
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>SignIn</title>
+
   </head>
 
   <body class="login-page">
@@ -72,9 +72,9 @@
 		  
 		  <hr class="hr-xs">
 		  
-		   <div class="form-group" >
-			<h6>Register as</h6>	
-			<div class="col-md-5">	
+	      <div class="form-group" >
+		   <h6>Register as</h6>
+            <div class="col-md-5">
 				<div class="radio">
 					<input type="radio" name="userType" id="submitLogin_userTypeemployee" checked="checked" value="EMPLOYEE"/>
 					<label for="submitLogin_userTypeemployee">Employee</label>
@@ -91,7 +91,6 @@
 			<br>
 			<button class="btn btn-primary btn-block" type="submit">Create</button>
 		  </div>
-
       </div>
 
       <div class="login-links">

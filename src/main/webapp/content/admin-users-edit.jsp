@@ -7,14 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <!-- Custom CSS -->
     <link href="../assets/css/grayscale.css" rel="stylesheet">
 
-
     <link href="../assets/css/app.min.css" rel="stylesheet">
     <link href="../assets/css/custom.css" rel="stylesheet">
-
 
     <!-- Main Style -->
     <link href="../assets/css/main.css" rel="stylesheet">
@@ -23,7 +20,7 @@
     <link href="../assets/css/supersized.css" rel="stylesheet">
     <link href="../assets/css/supersized.shutter.css" rel="stylesheet">
 
-    <title>Profile</title>
+    <title>Edit user</title>
 
 </head>
 
@@ -44,7 +41,6 @@
             <div class="container">
 
                 <s:actionerror/>
-
 
                 <div class="form-group col-xs-12">
                     <input type="text" class="form-control input-lg" placeholder="Name" name="name"
@@ -72,8 +68,6 @@
                 </div>
 
                 <div class="form-group col-xs-12">
-                    <%--<s:checkbox name="isAdmin" class="form-control input-lg" fieldValue="isAdmin" label="Admin"/>--%>
-                    <%--<input type="text" class="form-control input-lg" placeholder="Admin" name="isAdmin" value="<s:property value="isAdmin"/>">--%>
                     <input name="isAdmin" value="isAdmin" id="submitEditUserAdmin_isAdmin" class="form-control input-lg" type="checkbox">
                     <input id="__checkbox_submitEditUserAdmin_isAdmin" name="__checkbox_isAdmin" value="isAdmin" type="hidden">
                     <label for="submitEditUserAdmin_isAdmin" class="checkboxLabel">Admin</label>
@@ -108,7 +102,6 @@
 </s:form>
 
 <s:include value="partials/footer.jsp"/>
-
 
 <!-- Back to top button -->
 <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>

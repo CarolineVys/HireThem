@@ -7,14 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
   <!-- Custom CSS -->
   <link href="../assets/css/grayscale.css" rel="stylesheet">
 
-
   <link href="../assets/css/app.min.css" rel="stylesheet">
   <link href="../assets/css/custom.css" rel="stylesheet">
-
 
   <!-- Main Style -->
   <link href="../assets/css/main.css" rel="stylesheet">
@@ -25,7 +22,7 @@
 
   <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
 
-  <title>Profile</title>
+  <title>Edit resume</title>
 
 </head>
 
@@ -124,7 +121,6 @@
       </div>
     </section>
     <!-- END Education -->
-
 
     <!-- Work Experience -->
     <section class="bg-img" style="background-image: url(../assets/img/bg-facts.jpg);">

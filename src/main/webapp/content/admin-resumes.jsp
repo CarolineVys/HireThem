@@ -8,14 +8,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
 	<!-- Custom CSS -->
 	<link href="../assets/css/grayscale.css" rel="stylesheet">
 
-
 	<link href="../assets/css/app.min.css" rel="stylesheet">
 	<link href="../assets/css/custom.css" rel="stylesheet">
-
 
 	<!-- Main Style -->
 	<link href="../assets/css/main.css" rel="stylesheet">
@@ -23,6 +20,9 @@
 	<!-- Supersized -->
 	<link href="../assets/css/supersized.css" rel="stylesheet">
 	<link href="../assets/css/supersized.shutter.css" rel="stylesheet">
+
+	<title>Resumes</title>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">

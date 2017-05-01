@@ -7,14 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <!-- Custom CSS -->
     <link href="../assets/css/grayscale.css" rel="stylesheet">
 
-
     <link href="../assets/css/app.min.css" rel="stylesheet">
     <link href="../assets/css/custom.css" rel="stylesheet">
-
 
     <!-- Main Style -->
     <link href="../assets/css/main.css" rel="stylesheet">
@@ -22,8 +19,12 @@
     <!-- Supersized -->
     <link href="../assets/css/supersized.css" rel="stylesheet">
     <link href="../assets/css/supersized.shutter.css" rel="stylesheet">
-	
-	<title>Profile</title>
+
+    <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.numeric.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.jstepper.js"></script>
+
+    <title>Add vacancy</title>
 	
   </head>
 
@@ -59,7 +60,6 @@
             <textarea class="form-control" rows="3" placeholder="Summary" name="summary"><s:property value="summary"/></textarea>
           </div>
 		  
-		  
           <div class="form-group col-xs-12 col-sm-6 col-md-4">
             <div class="input-group input-group-sm">
               <span class="input-group-addon"><i class="fa fa-briefcase"></i></span>
@@ -70,14 +70,14 @@
           <div class="form-group col-xs-12 col-sm-6 col-md-4">
             <div class="input-group input-group-sm">
               <span class="input-group-addon"><i class="fa fa-money"></i></span>
-              <input type="text" class="form-control" placeholder="Salary" name="salary" value="<s:property value="salary"/>">
+              <input id="salary" type="text" class="form-control" placeholder="Salary" name="salary" value="<s:property value="salary"/>">
             </div>
           </div>
 
           <div class="form-group col-xs-12 col-sm-6 col-md-4">
             <div class="input-group input-group-sm">
               <span class="input-group-addon"><i class="fa fa-flask"></i></span>
-              <input type="text" class="form-control" placeholder="Experience, e.g. 5" name="requiredExperience" value="<s:property value="requiredExperience"/>">
+              <input id="workYears" type="text" class="form-control" placeholder="Experience, e.g. 5" name="requiredExperience" value="<s:property value="requiredExperience"/>">
               <span class="input-group-addon">Years</span>
             </div>
           </div>
@@ -112,18 +112,25 @@
   <s:include value="partials/footer.jsp"/>
 
 
-<!-- Back to top button -->
-<a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
-<!-- END Back to top button -->
+  <!-- Back to top button -->
+  <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
+  <!-- END Back to top button -->
 
-<!-- Scripts -->
-<script src="../assets/js/app.min.js"></script>
+  <!-- Scripts -->
+  <script type="text/javascript">
+      $("#salary").numeric();
+      $("#workYears").numeric();
+      $('#salary').jStepper({minValue:0, maxValue:999999});
+      $('#workYears').jStepper({minValue:0, maxValue:99});
+  </script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/app.min.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="../assets/js/grayscale.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../assets/js/bootstrap.min.js"></script>
 
-</body>
+  <!-- Custom Theme JavaScript -->
+  <script src="../assets/js/grayscale.js"></script>
+
+  </body>
 </html>
