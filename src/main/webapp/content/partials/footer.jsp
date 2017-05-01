@@ -1,7 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <!-- Site footer -->
+
 <footer class="site-footer">
+    <script type="text/javascript" src="../../assets/js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/disable_russian.js"></script>
 
     <!-- Top section -->
     <div class="container">
@@ -28,6 +31,8 @@
             </div>
         </div>
     </div>
+
+
     <!-- END Bottom section -->
 
 </footer>
