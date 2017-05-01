@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f760d8a-132f-48da-a2a4-f55989c512f7" name="Default" comment="Merge branch 'master' of https://github.com/CarolineVys/HireThem&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/assets/css/responsive.css&#10;#&#9;src/main/webapp/assets/css/style.css&#10;#&#9;src/main/webapp/assets/js/basic.js&#10;#&#9;src/main/webapp/assets/js/grayscale.js&#10;#&#9;src/main/webapp/content/profile.jsp&#10;#&#9;src/main/webapp/content/vacancy.jsp">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.jstepper.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/model/service/UserServiceWithAuthorization.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.tweet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/npm.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HireThem.iml" afterPath="$PROJECT_DIR$/.idea/HireThem.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/action/profile/EditProfileAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/profile/EditProfileAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/action/profile/ProfileAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/profile/ProfileAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/action/resumes/ModifyResumeAction.java" afterPath="$PROJECT_DIR$/src/main/java/action/resumes/ModifyResumeAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/model/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/grayscale.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/grayscale.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/responsive.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/basic.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/basic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/grayscale.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/grayscale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes-edit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes-resume.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/admin-resumes-resume.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/profile.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/profile.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/resume-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/resume-edit.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/resume.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/resume.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/vacancy-edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/vacancy-edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/content/vacancy.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/content/vacancy.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1024,7 +1009,7 @@
       <workItem from="1493628091124" duration="185000" />
       <workItem from="1493630434657" duration="4206000" />
       <workItem from="1493635386954" duration="420000" />
-      <workItem from="1493635991055" duration="3028000" />
+      <workItem from="1493635991055" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="commments are deleted">
       <created>1492447423080</created>
@@ -1068,11 +1053,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493131860609</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="some changes in admin panel">
+      <created>1493639499112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1493639499112</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63669000" />
+    <option name="totallyTimeSpent" value="64066000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1155,7 +1147,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="folder twitter safely are deleted" />
     <MESSAGE value="some fales unusfull" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fales unusfull" />
+    <MESSAGE value="some changes in admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes in admin panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

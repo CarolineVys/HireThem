@@ -23,7 +23,7 @@
     <link href="../assets/css/supersized.css" rel="stylesheet">
     <link href="../assets/css/supersized.shutter.css" rel="stylesheet">
 
-      <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
 	
 	<title>Profile</title>
 	

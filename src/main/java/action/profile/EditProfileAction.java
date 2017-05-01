@@ -4,7 +4,7 @@ import action.interceptor.AuthorizeAs;
 import model.entity.User;
 import model.service.CurrentUserService;
 import model.service.LoginService;
-import model.service.UserServiceWithAuthorization;
+import model.service.UserService;
 import model.service.exception.ServiceException;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.validator.annotations.RequiredStringValidator;
@@ -24,7 +24,7 @@ public class EditProfileAction extends ActionSupport {
     private String newPassword;
     private String email;
 
-    private UserServiceWithAuthorization userService = new UserServiceWithAuthorization();
+    private UserService userService = new UserService();
 
     public String input() throws ServiceException {
         User user = new CurrentUserService().getCurrentUserEntity();

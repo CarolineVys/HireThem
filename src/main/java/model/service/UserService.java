@@ -109,11 +109,6 @@ public class UserService {
         return userDao.getAllUsers();
     }
 
-    public String getUserMailtoLink(int userId) throws ServiceException {
-        User user = getUser(userId);
-        return new URIBuilder().setScheme("mailto").setPath(user.getEmail()).toString();
-    }
-
     public void changeUserPassword(int id, String newPassword) throws ServiceException {
         PasswordEncryptionService service = new PasswordEncryptionService();
         byte[] newPasswordSalt = service.generateSalt();

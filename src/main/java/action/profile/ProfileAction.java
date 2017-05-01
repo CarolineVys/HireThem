@@ -59,12 +59,6 @@ public class ProfileAction extends ActionSupport {
         this.contactInfo = contactInfo;
     }
 
-    public String getMailtoLink() throws ServiceException {
-        UserService userService = new UserService();
-        User user = new CurrentUserService().getCurrentUserEntity();
-        return userService.getUserMailtoLink(userService.getUserId(user.getEmail(), user.getUserType()));
-    }
-
     public String getEmail() {
         return email;
     }
