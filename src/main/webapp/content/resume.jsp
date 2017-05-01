@@ -22,6 +22,8 @@
     <!-- Supersized -->
     <link href="../assets/css/supersized.css" rel="stylesheet">
     <link href="../assets/css/supersized.shutter.css" rel="stylesheet">
+
+      <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
 	
 	<title>Profile</title>
 	
@@ -104,9 +106,10 @@
                         <div class="form-group">
                           <div class="input-group">
                             <span class="input-group-addon">Date from</span>
-                            <input type="text" name="educationStartDate" class="form-control" placeholder="e.g. 2012"  value="<s:property value="%{educationStartDate}"/>">
+                            <select style="width: 150px" id="educationStartDate" class="form-control" name="educationStartDate" data-id="<s:property value="%{educationStartDate}"/>"> </select>
+
                             <span class="input-group-addon">Date to</span>
-                            <input type="text" name="educationEndDate" class="form-control" placeholder="e.g. 2016" value="<s:property value="%{educationEndDate}"/>">
+                            <select style="width: 150px" id="educationEndDate" class="form-control" name="educationEndDate" data-id="<s:property value="%{educationEndDate}"/>"> </select>
                           </div>
                         </div>
 
@@ -120,8 +123,9 @@
                 </div>
               </div>
             </div>
-          </div>
+
 		</header>
+          </div>
         </section>
         <!-- END Education -->
 
@@ -154,9 +158,9 @@
                         <div class="form-group">
                           <div class="input-group">
                             <span class="input-group-addon">Date from</span>
-                            <input type="text" name="workExperienceStartDate" class="form-control" placeholder="e.g. 2012" value="<s:property value="%{workExperienceStartDate}"/>">
+                              <select style="width: 150px" id="workExperienceStartDate" name="workExperienceStartDate" class="form-control" value="<s:property value="%{workExperienceStartDate}"/>"> </select>
                             <span class="input-group-addon">Date to</span>
-                            <input type="text" name="workExperienceEndDate" class="form-control" placeholder="e.g. 2016" value="<s:property value="%{workExperienceEndDate}"/>">
+                              <select style="width: 150px" id="workExperienceEndDate" name="workExperienceEndDate" class="form-control" value="<s:property value="%{workExperienceEndDate}"/>"> </select>
                           </div>
                         </div>
 
@@ -193,7 +197,6 @@
         </section>
         <!-- END Submit -->
 
-
       </main>
       <!-- END Main container -->
 
@@ -206,6 +209,35 @@
 <!-- END Back to top button -->
 
 <!-- Scripts -->
+  <script type="text/javascript">
+      for (var i = new Date().getFullYear(); i > 1900; i--)
+      {
+          $('#educationStartDate').append($('<option />').val(i).html(i));
+          $('#educationEndDate').append($('<option />').val(i).html(i));
+          $('#workExperienceStartDate').append($('<option />').val(i).html(i));
+          $('#workExperienceEndDate').append($('<option />').val(i).html(i));
+      }
+
+      $("#educationStartDate").change(function() {
+          var changedStart = $("#educationStartDate").val();
+          $('#educationEndDate').empty();
+          for (var i = new Date().getFullYear(); i >= changedStart; i--)
+          {
+              $('#educationEndDate').append($('<option />').val(i).html(i));
+          }
+      });
+
+      $("#workExperienceStartDate").change(function() {
+          var changedWorkStart = $("#workExperienceStartDate").val();
+          $('#workExperienceEndDate').empty();
+          for (var i = new Date().getFullYear(); i >= changedWorkStart; i--)
+          {
+              $('#workExperienceEndDate').append($('<option />').val(i).html(i));
+          }
+      });
+
+  </script>
+
 <script src="../assets/js/app.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->

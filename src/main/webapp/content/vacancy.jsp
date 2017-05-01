@@ -25,8 +25,9 @@
 
     <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
     <script type="text/javascript" src="../assets/js/jquery.numeric.js"></script>
-
-    <title>Profile</title>
+    <script type="text/javascript" src="../assets/js/jquery.jstepper.js"></script>
+	
+	<title>Profile</title>
 	
   </head>
 
@@ -88,7 +89,6 @@
             </div>
           </div>
         </div>
-      </div>
     </header>
     <!-- END Page header -->
 	</section>
@@ -121,12 +121,15 @@
 <!-- Back to top button -->
 <a id="scroll-up" href="#"><i class="ti-angle-up"></i></a>
 <!-- END Back to top button -->
+
+<!-- Scripts -->
   <script type="text/javascript">
       $("#salary").numeric();
       $("#workYears").numeric();
+      $('#salary').jStepper({minValue:0, maxValue:999999});
+      $('#workYears').jStepper({minValue:0, maxValue:99});
   </script>
 
-<!-- Scripts -->
 <script src="../assets/js/app.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -93,8 +93,8 @@ jQuery(document).ready(function(){
 				function(){
 					jQuery('.image_overlay',this).css('visibility','hidden');
 				}
-			);
-			
+			);	
+
 			
 			//TABS
 			if(jQuery('#tabs').length != 0){
@@ -119,5 +119,4 @@ jQuery(document).ready(function(){
 			if(jQuery('#carousel').length != 0){
 				jQuery('#carousel').tinycarousel({start: 2});
 			}
-
 });	

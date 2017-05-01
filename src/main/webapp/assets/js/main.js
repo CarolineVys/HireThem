@@ -480,29 +480,6 @@ BRUSHED.scrollToTop = function(){
 }
 
 /* ==================================================
-   Thumbs / Social Effects
-================================================== */
-
-BRUSHED.utils = function(){
-	
-	$('.item-thumbs').bind('touchstart', function(){
-		$(".active").removeClass("active");
-      	$(this).addClass('active');
-    });
-	
-	$('.image-wrap').bind('touchstart', function(){
-		$(".active").removeClass("active");
-      	$(this).addClass('active');
-    });
-	
-	$('#social ul li').bind('touchstart', function(){
-		$(".active").removeClass("active");
-      	$(this).addClass('active');
-    });
-	
-}
-
-/* ==================================================
    Accordion
 ================================================== */
 
@@ -596,10 +573,7 @@ $(document).ready(function(){
 	BRUSHED.goUp();
 	BRUSHED.filter();
 	BRUSHED.fancyBox();
-	BRUSHED.contactForm();
-	BRUSHED.tweetFeed();
 	BRUSHED.scrollToTop();
-	BRUSHED.utils();
 	BRUSHED.accordion();
 	BRUSHED.toggle();
 	BRUSHED.toolTip();

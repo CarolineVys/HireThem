@@ -80,6 +80,7 @@
 
 <!-- Scripts -->
 <script src="../assets/js/app.min.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="../assets/js/bootstrap.min.js"></script>
 
