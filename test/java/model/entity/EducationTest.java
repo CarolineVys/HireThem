@@ -8,9 +8,6 @@ import java.sql.Date;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-/**
- * Created by egorshulga on 01-May-16.
- */
 public class EducationTest {
 
     private Education education;

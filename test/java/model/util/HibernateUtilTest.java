@@ -5,9 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
 
-/**
- * Created by egorshulga on 01-May-16.
- */
+
 public class HibernateUtilTest {
 
     Session session;

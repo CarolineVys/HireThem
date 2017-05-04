@@ -7,9 +7,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 
-/**
- * Created by Kirill on 03.05.2016.
- */
+
 public class CsvGenerationUtilTest {
 
     @Before

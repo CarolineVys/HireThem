@@ -6,9 +6,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-/**
- * Created by Kirill on 02.05.2016.
- */
 public class VacancyTest {
 
     private Vacancy vacancy;

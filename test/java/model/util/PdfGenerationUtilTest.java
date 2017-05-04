@@ -12,9 +12,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.util.Optional;
 
-/**
- * Created by egorshulga on 02-May-16.
- */
+
 public class PdfGenerationUtilTest {
 
 
