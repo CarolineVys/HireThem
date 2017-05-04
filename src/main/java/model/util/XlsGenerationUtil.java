@@ -9,6 +9,7 @@ import org.apache.poi.hssf.usermodel.*;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
 public class XlsGenerationUtil {
@@ -293,12 +294,13 @@ public class XlsGenerationUtil {
 
         ResumeDao resumeDao = new ResumeDao();
 
-        Resume resume = resumeDao.getResume(resumeId);
+        Resume resume = Optional.ofNullable(resumeDao.getResume(resumeId))
+                .orElse(new Resume());
 
         row = sheet.createRow(1);
 
         cell = row.createCell(0);
-        cell.setCellValue(resume.getEmployee().getEmail());
+        cell.setCellValue(Optional.ofNullable(resume.getEmployee()).map(User::getEmail).orElse(null));
         cell = row.createCell(1);
         cell.setCellValue(resume.getSummary());
         cell = row.createCell(2);
@@ -379,12 +381,15 @@ public class XlsGenerationUtil {
 
         VacancyDao vacancyDao = new VacancyDao();
 
-        Vacancy vacancy = vacancyDao.getVacancy(vacancyId);
+        Vacancy vacancy = Optional.ofNullable(vacancyDao.getVacancy(vacancyId))
+                .orElse(new Vacancy());
 
         row = sheet.createRow(1);
 
         cell = row.createCell(0);
-        cell.setCellValue(vacancy.getEmployer().getEmail());
+        cell.setCellValue( Optional.ofNullable(vacancy.getEmployer())
+                .map(User::getEmail)
+                .orElse(null));
         cell = row.createCell(1);
         cell.setCellValue(vacancy.getTitle());
         cell = row.createCell(2);
