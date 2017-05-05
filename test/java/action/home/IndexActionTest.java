@@ -1,6 +1,5 @@
-package test.action.home;
+package action.home;
 
-import action.home.IndexAction;
 import com.opensymphony.xwork2.Action;
 import org.junit.Before;
 import org.junit.Test;

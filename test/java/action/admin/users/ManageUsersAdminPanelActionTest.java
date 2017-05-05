@@ -1,6 +1,5 @@
-package test.action.admin.users;
+package action.admin.users;
 
-import action.admin.users.ManageUsersAdminPanelAction;
 import com.opensymphony.xwork2.Action;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,16 +12,11 @@ public class ManageUsersAdminPanelActionTest {
     @Before
     public void setUp(){
         action = new ManageUsersAdminPanelAction();
-        action.setUserId(10);
+        action.setUserId(2);
     }
 
     @Test
     public void input(){
         assertEquals(Action.INPUT, action.input());
-    }
-
-    @Test
-    public void execute(){
-        assertEquals(Action.INPUT, action.execute());
     }
 }

@@ -1,6 +1,5 @@
-package test.action.authentication;
+package action.authentication;
 
-import action.authentication.LoginAction;
 import com.opensymphony.xwork2.Action;
 import model.entity.User;
 import model.service.LoginService;
@@ -22,7 +21,7 @@ public class LoginActionTest {
     @Test
     public void input() {
         String expectedAction = Action.NONE;
-        if (!(new LoginService().isUserAuthenticated()))
+        if (!new LoginService().isUserAuthenticated())
             expectedAction = Action.INPUT;
         assertEquals(expectedAction, action.input());
     }

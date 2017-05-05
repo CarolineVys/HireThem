@@ -1,9 +1,6 @@
-package test.action.vacancies;
+package action.vacancies;
 
-import action.vacancies.BrowseVacanciesAction;
 import com.opensymphony.xwork2.Action;
-import model.entity.User;
-import model.util.PasswordEncryptionService;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,6 +1,5 @@
-package test.action.profile;
+package action.profile;
 
-import action.profile.ProfileAction;
 import com.opensymphony.xwork2.Action;
 import model.service.exception.ServiceException;
 import org.junit.Before;

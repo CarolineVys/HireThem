@@ -1,6 +1,5 @@
-package test.action.admin.resumes;
+package action.admin.resumes;
 
-import action.admin.resumes.DownloadResumesReportAction;
 import com.opensymphony.xwork2.Action;
 import org.junit.Before;
 import org.junit.Test;

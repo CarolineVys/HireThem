@@ -1,6 +1,5 @@
-package test.action.authentication;
+package action.authentication;
 
-import action.authentication.LogoutAction;
 import com.opensymphony.xwork2.Action;
 import org.junit.Before;
 import org.junit.Test;

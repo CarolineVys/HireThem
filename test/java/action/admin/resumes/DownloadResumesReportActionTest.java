@@ -1,16 +1,12 @@
-package test.action.admin.resumes;
+package action.admin.resumes;
 
-import action.admin.resumes.DownloadResumesReportAction;
 import com.opensymphony.xwork2.Action;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.InputStream;
-
 import static junit.framework.Assert.assertEquals;
 
 public class DownloadResumesReportActionTest {
-    private InputStream stream;
     private DownloadResumesReportAction action;
 
     @Before

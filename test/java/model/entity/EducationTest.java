@@ -12,12 +12,12 @@ public class EducationTest {
 
     private Education education;
 
-    private String university = "БГУИР";
+    private String university = "BSUIR";
     private Date startDate = new Date(2013, 9, 1);
     private Date endDate = new Date(2017, 6, 30);
-    private String specialty = "ПОИТ";
-    private String degree = "Студент";
-    private String description = "обучается";
+    private String specialty = "POIT";
+    private String degree = "Student";
+    private String description = "learning";
 
 
     @Before

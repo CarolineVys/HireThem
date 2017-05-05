@@ -18,8 +18,8 @@ public class UserTest {
     private String email = "cena@gmail.com";
     private byte[] encryptedPassword = {34, 23, 120};
     private byte[] passwordSalt = {34, 23, 120};
-    private String name = "Luba";
-    private String surname = "Belousova";
+    private String name = "User";
+    private String surname = "Userov";
     private String about = "Bla bla bla.";
     private String contactInfo = "+375295555555";
     private byte[] avatar = {34, 23, 120};

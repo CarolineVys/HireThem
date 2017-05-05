@@ -1,6 +1,5 @@
-package test.action.vacancies;
+package action.vacancies;
 
-import action.vacancies.DownloadVacancyAction;
 import com.opensymphony.xwork2.Action;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,21 +1,15 @@
 package model.util;
 
 import model.entity.Resume;
-import model.entity.Vacancy;
 import model.service.ResumeService;
-import model.service.VacancyService;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
-import java.util.Optional;
-
 
 public class PdfGenerationUtilTest {
-
-
 
     @Before
     public void setUp() throws Exception {
@@ -24,7 +18,7 @@ public class PdfGenerationUtilTest {
 
     @Test
     public void getResumeDocument() throws Exception {
-        Resume resume = new ResumeService().getAllResumes().get(0);
+        Resume resume = new ResumeService().getAllResumes().get(2);
 
         OutputStream stream = new FileOutputStream("test\\resources\\test-resume.pdf");
         PdfGenerationUtil.getResumeDocument(resume).writeTo(stream);

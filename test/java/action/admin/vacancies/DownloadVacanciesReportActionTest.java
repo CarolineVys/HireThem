@@ -1,6 +1,5 @@
-package test.action.admin.vacancies;
+package action.admin.vacancies;
 
-import action.admin.vacancies.DownloadVacanciesReportAction;
 import com.opensymphony.xwork2.Action;
 import org.junit.Before;
 import org.junit.Test;

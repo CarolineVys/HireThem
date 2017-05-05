@@ -1,6 +1,5 @@
-package test.action.admin.users;
+package action.admin.users;
 
-import action.admin.users.DownloadUsersReportAction;
 import com.opensymphony.xwork2.Action;
 import org.junit.Before;
 import org.junit.Test;
