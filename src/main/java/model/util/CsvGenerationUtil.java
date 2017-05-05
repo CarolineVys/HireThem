@@ -10,9 +10,7 @@ import org.apache.commons.io.output.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class CsvGenerationUtil {
 
@@ -115,8 +113,11 @@ public class CsvGenerationUtil {
         List<String[]> resumeInString = new ArrayList<>();
         ResumeDao resumeDao = new ResumeDao();
 
-        Resume resume = resumeDao.getResume(resumeId);
-        Set<Education> educationList = resume.getEducations();
+        Resume resume = Optional.ofNullable(resumeDao.getResume(resumeId))
+                .orElse(new Resume());
+        Set<Education> educationList = Optional.ofNullable(resume)
+                .map(Resume::getEducations)
+                .orElse(Collections.emptySet());
         String newTempEducation = "";
         for (Education temp : educationList) {
             newTempEducation = temp.getUniversity() + "\n" + temp.getSpecialty();
@@ -127,7 +128,9 @@ public class CsvGenerationUtil {
             newTempExperience = temp.getCompanyName() + "\n" + temp.getDescription();
         }
         String[] tempArray = {
-                resume.getEmployee().getEmail(),
+                Optional.ofNullable(resume.getEmployee())
+                        .map(User::getEmail)
+                        .orElse(null),
                 resume.getSummary(),
                 resume.getSkills(),
                 newTempEducation,
@@ -150,10 +153,13 @@ public class CsvGenerationUtil {
         List<String[]> vacancyInString = new ArrayList<>();
         VacancyDao vacancyDao = new VacancyDao();
 
-        Vacancy vacancy = vacancyDao.getVacancy(vacancyId);
+        Vacancy vacancy = Optional.ofNullable(vacancyDao.getVacancy(vacancyId))
+                .orElse(new Vacancy());
 
         String[] tempArray = {
-                vacancy.getEmployer().getEmail(),
+                Optional.ofNullable(vacancy.getEmployer())
+                        .map(User::getEmail)
+                        .orElse(null),
                 vacancy.getTitle(),
                 vacancy.getSummary(),
                 vacancy.getSalary(),
