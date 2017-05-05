@@ -20,8 +20,6 @@
   <link href="../assets/css/supersized.css" rel="stylesheet">
   <link href="../assets/css/supersized.shutter.css" rel="stylesheet">
 
-  <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
-
   <title>Edit resume</title>
 
 </head>
@@ -99,10 +97,10 @@
                       <div class="form-group">
                         <div class="input-group">
                           <span class="input-group-addon">Date from</span>
-                          <select style="width: 150px" id="startDate" class="form-control" name="startDate"  data-id="<s:property value="%{educationStartDate}"/>"> </select>
+                          <select style="width: 150px" id="educationStartDate" class="form-control" name="startDate"  data-id="<s:property value="%{educationStartDate}"/>"> </select>
 
                           <span class="input-group-addon">Date to</span>
-                          <select style="width: 150px" id="endDate" class="form-control" name="endDate" data-id="<s:property value="%{educationEndDate}"/>"> </select>
+                          <select style="width: 150px" id="educationEndDate" class="form-control" name="endDate" data-id="<s:property value="%{educationEndDate}"/>"> </select>
                         </div>
                       </div>
 
@@ -150,10 +148,10 @@
                     <div class="form-group">
                       <div class="input-group">
                         <span class="input-group-addon">Date from</span>
-                        <select style="width: 150px" id="workExperienceStart" type="text" name="workExperienceStart" class="form-control" data-id="<s:property value="%{workExperienceStartDate}"/>"> </select>
+                        <select style="width: 150px" id="workExperienceStartDate" type="text" name="workExperienceStart" class="form-control" data-id="<s:property value="%{workExperienceStartDate}"/>"> </select>
 
                         <span class="input-group-addon">Date to</span>
-                        <select style="width: 150px" id="workExperienceEnd" type="text" name="workExperienceEnd" class="form-control" data-id="<s:property value="%{workExperienceEndDate}"/>"> </select>
+                        <select style="width: 150px" id="workExperienceEndDate" type="text" name="workExperienceEnd" class="form-control" data-id="<s:property value="%{workExperienceEndDate}"/>"> </select>
                       </div>
                     </div>
 
@@ -196,6 +194,9 @@
 
 </s:form>
 
+<script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="../assets/js/yearsOnEditResume.js"></script>
+
 <s:include value="partials/footer.jsp"/>
 
 <!-- Back to top button -->
@@ -203,61 +204,6 @@
 <!-- END Back to top button -->
 
 <!-- Scripts -->
-<script type="text/javascript">
-
-    for (var i = new Date().getFullYear(); i > 1900; i--)
-    {
-        if ($('#startDate').attr("data-id") == i)
-        {
-            $('#startDate').append($('<option/>').val(i).attr("selected", "selected").html(i));
-        }
-        else if ($('#endDate').attr("data-id") == i)
-        {
-            $('#endDate').append($('<option />').val(i).attr("selected", "selected").html(i));
-        }
-        else
-        {
-            $('#startDate').append($('<option />').val(i).html(i));
-            $('#endDate').append($('<option />').val(i).html(i));
-        }
-    }
-
-    for (var i = new Date().getFullYear(); i > 1900; i--)
-    {
-        if ($('#workExperienceStart').attr("data-id") == i)
-        {
-            $('#workExperienceStart').append($('<option/>').val(i).attr("selected", "selected").html(i));
-        }
-        else if ($('#workExperienceEnd').attr("data-id") == i)
-        {
-            $('#workExperienceEnd').append($('<option />').val(i).attr("selected", "selected").html(i));
-        }
-        else
-        {
-            $('#workExperienceStart').append($('<option />').val(i).html(i));
-            $('#workExperienceEnd').append($('<option />').val(i).html(i));
-        }
-    }
-
-
-    $("#startDate").change(function() {
-        var changedStart = $("#startDate").val();
-        $('#endDate').empty();
-        for (var i = new Date().getFullYear(); i >= changedStart; i--)
-        {
-            $('#endDate').append($('<option />').val(i).html(i));
-        }
-    });
-
-    $("#workExperienceStart").change(function() {
-        var changedWorkStart = $("#workExperienceStart").val();
-        $('#workExperienceEnd').empty();
-        for (var i = new Date().getFullYear(); i >= changedWorkStart; i--)
-        {
-            $('#workExperienceEnd').append($('<option />').val(i).html(i));
-        }
-    });
-</script>
 
 <script src="../assets/js/app.min.js"></script>
 

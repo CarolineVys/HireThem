@@ -11,8 +11,6 @@ import com.opensymphony.xwork2.ActionSupport;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.validator.GenericValidator;
 
-import java.util.Date;
-import java.util.Locale;
 
 @AuthorizeAs(userType = "EMPLOYEE")
 public class ModifyResumeAction extends ActionSupport {
@@ -88,27 +86,6 @@ public class ModifyResumeAction extends ActionSupport {
         if (StringUtils.isEmpty(summary)) {
             addActionError("Summary cannot be empty");
         }
-
-        /*if (StringUtils.isNotBlank(university)) {
-            if (!GenericValidator.isDate(educationStartDate, Locale.forLanguageTag("ru")) ||
-                    !GenericValidator.isDate(educationEndDate, Locale.forLanguageTag("ru"))) {
-                addActionError("Work experience date is in wrong format");
-                if (new Date(educationEndDate).before(new Date(educationStartDate))) {
-                    addActionError("Work experience end date is before start date");
-                }
-            }
-        }
-
-        if (StringUtils.isNotBlank(companyName) && StringUtils.isNotBlank(position)) {
-            if (!GenericValidator.isDate(workExperienceEndDate, Locale.forLanguageTag("ru")) ||
-                    !GenericValidator.isDate(workExperienceStartDate, Locale.forLanguageTag("ru"))) {
-                addActionError("Work experience date is in wrong format");
-                if (new Date(workExperienceEndDate).before(new Date(workExperienceStartDate))) {
-                    addActionError("Work experience end date is before start date");
-                }
-            }
-        }
-        */
     }
 
     public int getResumeId() {

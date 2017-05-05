@@ -20,10 +20,6 @@
     <link href="../assets/css/supersized.css" rel="stylesheet">
     <link href="../assets/css/supersized.shutter.css" rel="stylesheet">
 
-    <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery.numeric.js"></script>
-    <script type="text/javascript" src="../assets/js/jquery.jstepper.js"></script>
-
     <title>Add vacancy</title>
 	
   </head>
@@ -70,14 +66,14 @@
           <div class="form-group col-xs-12 col-sm-6 col-md-4">
             <div class="input-group input-group-sm">
               <span class="input-group-addon"><i class="fa fa-money"></i></span>
-              <input id="salary" type="text" class="form-control" placeholder="Salary" name="salary" value="<s:property value="salary"/>">
+              <input type="number" min="0" max="999999" id="salary" class="form-control" placeholder="Salary" name="salary" value="<s:property value="salary"/>">
             </div>
           </div>
 
           <div class="form-group col-xs-12 col-sm-6 col-md-4">
             <div class="input-group input-group-sm">
               <span class="input-group-addon"><i class="fa fa-flask"></i></span>
-              <input id="workYears" type="text" class="form-control" placeholder="Experience, e.g. 5" name="requiredExperience" value="<s:property value="requiredExperience"/>">
+              <input type="number" min="0" max="99" id="workYears" class="form-control" placeholder="Experience, e.g. 5" name="requiredExperience" value="<s:property value="requiredExperience"/>">
               <span class="input-group-addon">Years</span>
             </div>
           </div>
@@ -109,6 +105,11 @@
     <!-- END Main container -->
   </s:form>
 
+  <script type="text/javascript" src="../assets/js/jquery-1.5.2.min.js"></script>
+  <script type="text/javascript" src="../assets/js/jquery.numeric.js"></script>
+  <script type="text/javascript" src="../assets/js/jquery.jstepper.js"></script>
+  <script type="text/javascript" src="../assets/js/numbers_input.js"></script>
+
   <s:include value="partials/footer.jsp"/>
 
 
@@ -117,12 +118,7 @@
   <!-- END Back to top button -->
 
   <!-- Scripts -->
-  <script type="text/javascript">
-      $("#salary").numeric();
-      $("#workYears").numeric();
-      $('#salary').jStepper({minValue:0, maxValue:999999});
-      $('#workYears').jStepper({minValue:0, maxValue:99});
-  </script>
+
 
   <script src="../assets/js/app.min.js"></script>
 

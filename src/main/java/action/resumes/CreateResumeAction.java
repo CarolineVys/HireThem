@@ -61,25 +61,6 @@ public class CreateResumeAction extends ActionSupport {
         if (StringUtils.isEmpty(summary)) {
             addActionError("Summary cannot be empty");
         }
-        /*if (StringUtils.isNotBlank(university)) {
-            if (!GenericValidator.isDate(educationEndDate, Locale.forLanguageTag("ru")) ||
-                    !GenericValidator.isDate(educationStartDate, Locale.forLanguageTag("ru"))) {
-                addActionError("Education date is in wrong format");
-                if (new Date(educationEndDate).before(new Date(educationStartDate))) {
-                    addActionError("Education end date is before start date");
-                }
-            }
-        }
-        if (StringUtils.isNotBlank(companyName) && StringUtils.isNotBlank(position)) {
-            if (!GenericValidator.isDate(workExperienceStartDate, Locale.forLanguageTag("ru")) ||
-                    !GenericValidator.isDate(workExperienceEndDate, Locale.forLanguageTag("ru"))) {
-                addActionError("Work experience date is in wrong format");
-                if (new Date(workExperienceEndDate).before(new Date(workExperienceStartDate))) {
-                    addActionError("Work experience end date is before start date");
-                }
-            }
-        }
-        */
     }
 
     public String getDescription() {

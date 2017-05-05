@@ -87,7 +87,6 @@
               <a class="item-block">
                 <header>
                   <div class="hgroup">
-                    <!--TODO Change currentUser.name -->
                     <h4><s:property value="resume.getEmployee().name"/> <s:property value="resume.getEmployee().surname"/></h4>
                     <h5><s:property value="summary"/></h5>
                   </div>
