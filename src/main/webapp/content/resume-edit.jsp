@@ -41,23 +41,23 @@
           <h1 class="text-center">Edit your resume</h1>
         </div>
 
-        <div class="container">
+        <div ng-controller="editResumeController" class="container">
           <s:if test="hasActionErrors()">
             <a><s:actionerror/></a>
           </s:if>
 
             <div class="col-xs-12">
               <div class="form-group">
-                <textarea name="summary" class="form-control" rows="3" placeholder="Summary"><s:property value="summary"/></textarea>
+                <textarea name="summary" class="form-control" rows="3" placeholder="Summary">{{resume.summary}}</textarea>
               </div>
 			  <div class="form-group">
-                <textarea name="interests" class="form-control" rows="3" placeholder="Interests"><s:property value="interests"/></textarea>
+                <textarea name="interests" class="form-control" rows="3" placeholder="Interests">{{resume.interests}}</textarea>
               </div>
 			  <div class="form-group">
-                <textarea name="references" class="form-control" rows="3" placeholder="References"><s:property value="references"/></textarea>
+                <textarea name="references" class="form-control" rows="3" placeholder="References">{{resume.references}}</textarea>
               </div>
 			  <div class="form-group">
-                <textarea name="skills" class="form-control" rows="3" placeholder="Skills"><s:property value="skills"/></textarea>
+                <textarea name="skills" class="form-control" rows="3" placeholder="Skills">{{resume.skills}}</textarea>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
 
 	  <!-- Education -->
         <section class="bg-img" style="background-image: url(../assets/img/bg-facts.jpg);">
-          <div class="container">
+          <div ng-controller="editResumeController" class="container">
 
             <header class="section-header">
               <span>Latest degrees</span>
@@ -86,28 +86,28 @@
                       
                       <div class="col-xs-12">
                         <div class="form-group">
-                          <input type="text" name="degree" class="form-control" placeholder="Degree, e.g. Bachelor" value="<s:property value="%{degree}"/>">
+                          <input type="text" name="degree" class="form-control" placeholder="Degree, e.g. Bachelor" ng-bind-template="{{resume.degree}}"/>
                         </div>
 
                         <div class="form-group">
-                          <input type="text" name="specialty" class="form-control" placeholder="Major, e.g. Computer Science" value="<s:property value="%{specialty}"/>">
+                          <input type="text" name="specialty" class="form-control" placeholder="Major, e.g. Computer Science" ng-bing-template = "{{resume.specialty}}"/>
                         </div>
                         <div class="form-group">
-                          <input type="text" name="university" class="form-control" placeholder="School name, e.g. Massachusetts Institute of Technology"  value="<s:property value="%{university}"/>">
+                          <input type="text" name="university" class="form-control" placeholder="School name, e.g. Massachusetts Institute of Technology" ng-bing-template = "{{resume.university}}"/>
                         </div>
 
                         <div class="form-group">
                             <div class="input-group">
                             <span class="input-group-addon">Date from</span>
-                              <select style="width: 150px" id="educationStartDate" class="form-control" name="startDate"  data-id="<s:property value="%{educationStartDate}"/>"> </select>
+                              <select style="width: 150px" id="educationStartDate" class="form-control" name="startDate" ng-bing-template data-id="{{resume.educationStartDate}}"/> </select>
 
                               <span class="input-group-addon">Date to</span>
-                              <select style="width: 150px" id="educationEndDate" class="form-control" name="endDate" data-id="<s:property value="%{educationEndDate}"/>"> </select>
+                              <select style="width: 150px" id="educationEndDate" class="form-control" name="endDate" ng-bing-template data-id="{{resume.educationEndDate}}"/>
                             </div>
                         </div>
 
                         <div class="form-group">
-                          <textarea name="description" class="form-control" rows="3" placeholder="Short description"><s:property value="%{educationDescription}"/></textarea>
+                          <textarea name="description" class="form-control" rows="3" placeholder="Short description">{{resume.educationDescription}}"/></textarea>
                         </div>
                       </div>
                     </div>
@@ -123,33 +123,32 @@
 
         <!-- Work Experience -->
         <section class="bg-img" style="background-image: url(../assets/img/bg-facts.jpg);">
-          <div class="container">
+          <div ng-controller="editResumeController" class="container">
             <header class="section-header">
               <span>Past positions</span>
               <h2>Work Experience</h2>
             </header>
-            
+
             <div class="row">
-               <div id="duplicator" class="col-xs-12">
+              <div id="duplicator" class="col-xs-12">
                 <div class="item-block">
-                  <div class="item-form">                 
+                  <div class="item-form">
                     <div class="row">
                       <div class="col-xs-12">
                         <div class="form-group">
-                          <input type="text" name="companyName" class="form-control" placeholder="Company name" value="<s:property value="%{companyName}"/>">
+                          <input type="text" name="companyName" class="form-control" placeholder="Company name" ng-bing-template = "{{resume.companyName}}"/>
                         </div>
 
                         <div class="form-group">
-                          <input type="text" name="position" class="form-control" placeholder="Position, e.g. UI/UX Researcher" value="<s:property value="%{position}"/>">
+                          <input type="text" name="position" class="form-control" placeholder="Position, e.g. UI/UX Researcher" ng-bing-template = "{{resume.position}}"/>
                         </div>
 
                         <div class="form-group">
                           <div class="input-group">
                             <span class="input-group-addon">Date from</span>
-                              <select style="width: 150px" id="workExperienceStartDate" type="text" name="workExperienceStart" class="form-control" data-id="<s:property value="%{workExperienceStartDate}"/>"> </select>
-
-                              <span class="input-group-addon">Date to</span>
-                              <select style="width: 150px" id="workExperienceEndDate" type="text" name="workExperienceEnd" class="form-control" data-id="<s:property value="%{workExperienceEndDate}"/>"> </select>
+                            <select style="width: 150px" id="workExperienceStartDate" name="workExperienceStartDate" class="form-control" ng-bing-template = "{{resume.workExperienceStartDate}}"/> </select>
+                            <span class="input-group-addon">Date to</span>
+                            <select style="width: 150px" id="workExperienceEndDate" name="workExperienceEndDate" class="form-control" ng-bing-template = "{{resume.workExperienceEndDate}}"/> </select>
                           </div>
                         </div>
 
@@ -157,7 +156,7 @@
 
                       <div class="col-xs-12">
                         <div class="form-group">
-                          <textarea name="description" class="form-control" rows="3" placeholder="Short description" value="<s:property value="%{workExperienceDescription}"/>"></textarea>
+                          <textarea name="workExperienceDescription" class="form-control" rows="3" placeholder="Short description" ng-bing-template = "{{resume.workExperienceDescription}}"/>
                         </div>
                       </div>
                     </div>
@@ -209,6 +208,12 @@
 
   <!-- Custom Theme JavaScript -->
   <script src="../assets/js/grayscale.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-messages.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.8/angular-strap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.8/angular-strap.tpl.min.js"></script>
+  <script type="text/javascript" src="../assets/js/lib/appMainPoint.js"></script>
+  <script src="../assets/js/lib/editResumeController.js"></script>
 
   </body>
 </html>

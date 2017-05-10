@@ -24,7 +24,7 @@
 
 </head>
 
-   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+   <body ng-app="app" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
    <s:include value="partials/header.jsp"/>
 
@@ -77,24 +77,22 @@
     <!-- Main container -->
     <main>
       <section class=" bg-img" style="background-image: url(../assets/img/bg-facts.jpg);">
-        <div class="container">
+        <div ng-controller = "resumeController" class="container">
           <div class="row">
 
-			<!-- Resume detail -->
-		   <s:iterator value="resumes" var="resume">
-		   <s:hidden value="id"/>
-            <div class="col-xs-12">
+            <div ng-repeat="resume in resumes" class="col-xs-12">
+              <input name="" value={{resume.id}} type="hidden"/>
               <a class="item-block">
                 <header>
                   <div class="hgroup">
-                    <h4><s:property value="resume.getEmployee().name"/> <s:property value="resume.getEmployee().surname"/></h4>
-                    <h5><s:property value="summary"/></h5>
+                    <h4>{{resume.name}} {{resume.surname}}</h4>
+                    <h5>{{resume.summary}}</h5>
                   </div>
                 </header>
 
                 <div class="item-body">
-                  <p><s:property value="skills"/></p>
-				  <p><s:property value="contactInfo"/></p>
+                  <p>{{resume.skills}}</p>
+				  <p>{{resume.contactInfo}}</p>
                 </div>
 
               <div class="action-btn">
@@ -118,9 +116,6 @@
               </a><br><br>
             </div>
 
-            <!-- END Resume detail -->
-			</s:iterator>
-
           </div>
         </div>
       </section>
@@ -142,6 +137,13 @@
 
   <!-- Custom Theme JavaScript -->
   <script src="../assets/js/grayscale.js"></script>
+
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-messages.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.8/angular-strap.min.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.8/angular-strap.tpl.min.js"></script>
+   <script type="text/javascript" src="../assets/js/lib/appMainPoint.js"></script>
+   <script src="../assets/js/lib/resumeController.js"></script>
 
   </body>
 </html>

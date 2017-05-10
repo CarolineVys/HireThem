@@ -1,5 +1,5 @@
-Modern Programming Platforms project about jobs, resumes and vacancies.
-
-Employees can manage their resumes (create, edit, delete), browse for other resumes and vacancies.
-
-Employers can manage vacancies (create, edit, delete) and browse for vacancies and resumes.
+1. Нельзя скачать только резюме, у которого id в бд = 1.
+Но его можно просто удалить и все будет хорошо
+2. Создавать можно резюме любой степени заполненности, но
+3. Нормально редактировать можно только резюме, 
+которые были полностью заполнены при создании 

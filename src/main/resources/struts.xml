@@ -6,15 +6,15 @@
 
     <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
     <constant name="struts.devMode" value="false"/>
-
     <constant name="struts.convention.default.parent.package" value="angularstruts"/>
+
     <package name="angularstruts" extends="json-default"/>
     <package name="data" extends="angularstruts" namespace="/data"/>
+
     <constant name="struts.action.extension" value=","/>
     <constant name="struts.convention.result.path" value="/"/>
 
-
-    <package namespace="/" name="hireThem" extends="struts-default">
+    <package namespace="/" name="hireThem" extends="json-default">
         <interceptors>
             <interceptor name="login" class="action.interceptor.AuthorizationInterceptor"/>
             <interceptor-stack name="defaultWithAuthorizationCheckStack">
@@ -53,7 +53,6 @@
             <result name="input">/content/signin.jsp</result>
         </action>
 
-
         <action name="profile" class="action.profile.CurrentUserProfileAction" method="input">
             <result>/content/profile.jsp</result>
         </action>
@@ -67,7 +66,13 @@
 
         <action name="browseResumes" class="action.resumes.BrowseResumesAction" method="input">
             <result name="input">/content/resume-list.jsp</result>
+            <result type="json">
+                <param name="root">Resume</param>
+                <param name="excludeNullProperties">false</param>
+                <param name="noCache">true</param>
+            </result>
         </action>
+
         <action name="browseResumesBySummary" class="action.resumes.BrowseResumesAction" method="searchBySummary">
             <result>/content/resume-list.jsp</result>
             <result name="input" type="redirectAction">browseResumes</result>
@@ -89,15 +94,31 @@
             <result name="input">/content/profile.jsp</result>
         </action>
 
+
         <action name="browseVacancies" class="action.vacancies.BrowseVacanciesAction" method="input">
             <result name="input">/content/vacancy-list.jsp</result>
+            <result type="json">
+                <param name="root">Vacancy</param>
+                <param name="excludeNullProperties">false</param>
+                <param name="noCache">true</param>
+            </result>
         </action>
         <action name="browseVacanciesByTitle" class="action.vacancies.BrowseVacanciesAction" method="searchVacanciesByTitle">
             <result>/content/vacancy-list.jsp</result>
+            <result type="json">
+                <param name="root">Vacancy</param>
+                <param name="excludeNullProperties">false</param>
+                <param name="noCache">true</param>
+            </result>
             <result name="input" type="redirectAction">browseVacancies</result>
         </action>
         <action name="browseVacanciesBySummary" class="action.vacancies.BrowseVacanciesAction" method="searchVacanciesBySummary">
             <result>/content/vacancy-list.jsp</result>
+            <result type="json">
+                <param name="root">Vacancy</param>
+                <param name="excludeNullProperties">false</param>
+                <param name="noCache">true</param>
+            </result>
             <result name="input" type="redirectAction">browseVacancies</result>
         </action>
         <action name="browseVacanciesBySkills" class="action.vacancies.BrowseVacanciesAction" method="searchVacanciesBySkills">
@@ -106,6 +127,11 @@
         </action>
         <action name="browseVacanciesByExperience" class="action.vacancies.BrowseVacanciesAction" method="searchVacanciesByExperience">
             <result>/content/vacancy-list.jsp</result>
+            <result type="json">
+                <param name="root">Vacancy</param>
+                <param name="excludeNullProperties">false</param>
+                <param name="noCache">true</param>
+            </result>
             <result name="input" type="redirectAction">browseVacancies</result>
         </action>
 
@@ -148,6 +174,11 @@
         <action name="submitResume" class="action.resumes.CreateResumeAction" method="execute">
             <result type="redirectAction">manageResumes</result>
             <result name="input">/content/resume.jsp</result>
+            <result type="json">
+                <param name="root">addResume</param>
+                <param name="excludeNullProperties">false</param>
+                <param name="noCache">true</param>
+            </result>
         </action>
         <action name="deleteResume" class="action.resumes.DeleteResumeAction">
             <result type="redirectAction">manageResumes</result>

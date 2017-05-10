@@ -5,7 +5,7 @@
 <footer class="site-footer">
     <script type="text/javascript" src="../../assets/js/jquery-1.5.2.min.js"></script>
     <script type="text/javascript" src="../../assets/js/disable_russian.js"></script>
-
+    
     <!-- Top section -->
     <div class="container">
         <div class="row">

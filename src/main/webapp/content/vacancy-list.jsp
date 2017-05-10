@@ -77,24 +77,23 @@
     <!-- Main container -->
     <main>
        <section class=" bg-img" style="background-image: url(../assets/img/bg-facts.jpg);">
-        <div class="container">
+        <div ng-controller = "vacancyController" class="container">
           <div class="row">
 
             <!-- Job item -->
-          <s:iterator value="vacancies" var="vacancy">
-          <s:hidden value="id"/>
-            <div class="col-xs-12">
+            <div ng-repeat="vacancy in vacancies" class="col-xs-12">
+              <input name="" value={{vacancy.id}} type="hidden"/>
               <a class="item-block">
                 <header>
                   <div class="hgroup">
-                    <h4><s:property value="title"/></h4>
-                    <h5><s:property value="description"/></h5>
+                    <h4>{{vacancy.title}}</h4>
+                    <h5>{{vacancy.description}}</h5>
                   </div>
                 </header>
 
                 <div class="item-body">
-                  <p><s:property value="requiredSkills"/></p>
-                  <p><s:property value="requiredExperience"/></p>
+                  <p>{{vacancy.required_skills}}</p>
+                  <p>{{vacancy.required_exprrtience}}</p>
                 </div>
 
                 <div class="action-btn">
@@ -115,10 +114,9 @@
                   <s:a class="btn btn-xs btn-danger" href="%{vacancyCsv}">Download CSV</s:a>
                   <s:a class="btn btn-xs btn-danger" href="%{vacancyXls}">Download XLS</s:a>
                 </div>
-
               </a><br><br>
             </div>
-          </s:iterator>
+
             <!-- END Job item -->
           </div>
 
@@ -135,7 +133,12 @@
   <!-- END Back to top button -->
 
   <!-- Scripts -->
-  <script src="../assets/js/app.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-messages.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.8/angular-strap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.8/angular-strap.tpl.min.js"></script>
+  <script type="text/javascript" src="../assets/js/lib/appMainPoint.js"></script>
+  <script src="../assets/js/lib/vacancyController.js"></script>
 
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="../assets/js/bootstrap.min.js"></script>
